@@ -3,9 +3,9 @@ import json
 
 
 if __name__ == '__main__':
-    input_files = ['profiles/gdoc_csv/organ.csv', 'profiles/gdoc_csv/tissue_types.csv', 'profiles/gdoc_csv/pathological_alterations.csv']
+    input_files = ['profiles/gdoc_csv/source.csv', 'profiles/gdoc_csv/tissue_types.csv', 'profiles/gdoc_csv/pathological_alterations.csv']
     cols = ['CODE', 'NAME', 'PARENT', 'COLOR', 'COMMENT']
-    layer_names = ['Organ', 'Tissue Type', 'Pathological Alteration']
+    layer_names = ['Source', 'Tissue Type', 'Pathological Alteration']
 
     layer_nodes = []
 
