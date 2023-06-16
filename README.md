@@ -10,7 +10,7 @@ Generate the profile json using the exported csv from Google Docs:
 python create_profile_from_gdoc_csv.py
 ```
 
-Javascript to visualize the profile: [profile_v1.json](profile_viewer/index.html)
+Javascript to visualize the profile: [profile_v1.json](https://rawcdn.githack.com/human-centered-ai-lab/WSIDOM/5513adfa895773f22755304a447b8053a3044fd1/profile_viewer/index.html)
 
 ## Examples
 
