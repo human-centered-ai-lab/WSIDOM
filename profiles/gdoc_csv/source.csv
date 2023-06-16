@@ -1,0 +1,75 @@
+ID,PARENT,CODE,DEF COLOUR,NAME,COMMENT,ONTOLOGY,COLOR
+0,-1,NI,,No Semantics,"No further semantics is given, why the information is missing",,#ffffff
+1,-1,UNC,,Not Encoded,The actual value has not yet been encoded within the approved value domain. ,,#f3f3f3
+2,-1,UNK,,Unknown,"A proper value is applicable, but not known. This is typically the case, if there are artefacts (air bubbles), etc which do not allow a classification",,#d9d9d9
+3,-1,NV,,No proper Value,"Known to have no proper value, this will be the most common null value e.g. when there is no tissue. ",,#d9d9d9
+4,-1,C00,,C00: Lip,Lip,,#ffffff
+5,-1,C01,,C01: Base of Tongue,Base of Tongue,,#ffffff
+6,-1,C02,,C02: Other and Unspecified Parts of Tongue,Other and Unspecified Parts of Tongue,,#ffffff
+7,-1,C03,,C03: Gum,Gum,,#ffffff
+8,-1,C04,,C04: Floor of Mouth,Floor of Mouth,,#ffffff
+9,-1,C05,,C05: Palate,Palate,,#ffffff
+10,-1,C06,,C06: Other and Unspecified Parts of Mouth,Other and Unspecified Parts of Mouth,,#ffffff
+11,-1,C07,,C07: Parotid Gland,Parotid Gland,,#ffffff
+12,-1,C08,,C08: Other and Unspecified Major Salivary Glands,Other and Unspecified Major Salivary Glands,,#ffffff
+13,-1,C09,,C09: Tonsil,Tonsil,,#ffffff
+14,-1,C10,,C10: Oropharynx,Oropharynx,,#ffffff
+15,-1,C11,,C11: Nasopharynx,Nasopharynx,,#ffffff
+16,-1,C12,,C12: Pyriform Sinus,Pyriform Sinus,,#ffffff
+17,-1,C13,,C13: Hypopharynx,Hypopharynx,,#ffffff
+18,-1,C14,,"C14: Other and Ill-Defined Sites in the Lip, Oral Cavity, and Pharynx","Other and Ill-Defined Sites in the Lip, Oral Cavity, and Pharynx",,#ffffff
+19,-1,C15,,C15: Oesophagus,Oesophagus,,#ffffff
+20,-1,C16,,C16: Stomach,Stomach,,#ffffff
+21,-1,C17,,C17: Small Intestine,Small Intestine,,#ffffff
+22,-1,C18,,C18: Colon,Colon,,#ffffff
+23,-1,C19,,C19: Rectosigmoid Junction,Rectosigmoid Junction,,#ffffff
+24,-1,C20,,C20: Rectum,Rectum,,#ffffff
+25,-1,C21,,C21: Anus and Anal Canal,Anus and Anal Canal,,#ffffff
+26,-1,C22,,C22: Liver and Intrahepatic Bile Ducts,Liver and Intrahepatic Bile Ducts,,#ffffff
+27,-1,C23,,C23: Gallbladder,Gallbladder,,#ffffff
+28,-1,C24,,C24: Other and Unspecified Parts of Biliary Tract,Other and Unspecified Parts of Biliary Tract,,#ffffff
+29,-1,C25,,C25: Pancreas,Pancreas,,#ffffff
+30,-1,C26,,C26: Other and Ill-Defined Digestive Organs,Other and Ill-Defined Digestive Organs,,#ffffff
+31,-1,C30,,C30: Nasal Cavity and Middle Ear,Nasal Cavity and Middle Ear,,#ffffff
+32,-1,C31,,C31: Accessory Sinuses,Accessory Sinuses,,#ffffff
+33,-1,C32,,C32: Larynx,Larynx,,#ffffff
+34,-1,C33,,C33: Trachea,Trachea,,#ffffff
+35,-1,C34,,C34: Bronchus and Lung,Bronchus and Lung,,#ffffff
+36,-1,C37,,C37: Thymus,Thymus,,#ffffff
+37,-1,C38,,"C38: Heart, Mediastinum, and Pleura","Heart, Mediastinum, and Pleura",,#ffffff
+38,-1,C39,,C39: Other and Ill-Defined Sites in the Respiratory System and Intrathoracic Organs,Other and Ill-Defined Sites in the Respiratory System and Intrathoracic Organs,,#ffffff
+39,-1,C40,,C40: Bone and Articular Cartilage of Limbs,Bone and Articular Cartilage of Limbs,,#ffffff
+40,-1,C41,,C41: Bone and Articular Cartilage of Other and Unspecified Sites,Bone and Articular Cartilage of Other and Unspecified Sites,,#ffffff
+41,-1,C42,,C42: Hematopoietic and Reticuloendothelial Systems,Hematopoietic and Reticuloendothelial Systems,,#ffffff
+42,-1,C44,,C44: Skin,Skin,,#ffffff
+43,-1,C47,,C47: Peripheral Nerves and Autonomic Nervous System,Peripheral Nerves and Autonomic Nervous System,,#ffffff
+44,-1,C48,,C48: Retroperitoneum and Peritoneum,Retroperitoneum and Peritoneum,,#ffffff
+45,-1,C49,,"C49: Connective, Subcutaneous and other Soft Tissues ","Connective, Subcutaneous and other Soft Tissues ",,#ffffff
+46,-1,C50,,C50: Breast,Breast,,#ffffff
+47,-1,C51,,C51: Vulva,Vulva,,#ffffff
+48,-1,C52,,C52: Vagina,Vagina,,#ffffff
+49,-1,C53,,C53: Cervix Uteri,Cervix Uteri,,#ffffff
+50,-1,C54,,C54: Corpus Uteri,Corpus Uteri,,#ffffff
+51,-1,C55,,"C55: Uterus, Part Unspecified","Uterus, Part Unspecified",,#ffffff
+52,-1,C56,,C56: Ovary,Ovary,,#ffffff
+53,-1,C57,,C57: Other and Unspecified Female Genital Organs,Other and Unspecified Female Genital Organs,,#ffffff
+54,-1,C58,,C58: Placenta,Placenta,,#ffffff
+55,-1,C60,,C60: Penis,Penis,,#ffffff
+56,-1,C61,,C61: Prostate Gland,Prostate Gland,,#ffffff
+57,-1,C62,,C62: Testis,Testis,,#ffffff
+58,-1,C63,,C63: Other and Unspecified Male Genital Organs,Other and Unspecified Male Genital Organs,,#ffffff
+59,-1,C64,,C64: Kidney,Kidney,,#ffffff
+60,-1,C65,,C65: Renal Pelvis,Renal Pelvis,,#ffffff
+61,-1,C66,,C66: Ureter,Ureter,,#ffffff
+62,-1,C67,,C67: Bladder,Bladder,,#ffffff
+63,-1,C68,,C68: Other and Unspecified Urinary Organs,Other and Unspecified Urinary Organs,,#ffffff
+64,-1,C69,,C69: Eye and Adnexa,Eye and Adnexa,,#ffffff
+65,-1,C70,,C70: Meninges,Meninges,,#ffffff
+66,-1,C71,,C71: Brain,Brain,,#ffffff
+67,-1,C72,,"C72: Spinal Cord, Cranial Nerves, and Other Parts of Central Nervous System","Spinal Cord, Cranial Nerves, and Other Parts of Central Nervous System",,#ffffff
+68,-1,C73,,C73: Thyroid Gland,Thyroid Gland,,#ffffff
+69,-1,C74,,C74: Adrenal Gland,Adrenal Gland,,#ffffff
+70,-1,C75,,C75: Other Endocrine Glands and Related Structures,Other Endocrine Glands and Related Structures,,#ffffff
+71,-1,C76,,C76: Other and Ill-Defined Sites,Other and Ill-Defined Sites,,#ffffff
+72,-1,C77,,C77: Lymph Nodes,Lymph Nodes,,#ffffff
+73,-1,C80,,C80: Malignant Neoplasm without Specification of Site,Malignant Neoplasm without Specification of Site,,#ffffff

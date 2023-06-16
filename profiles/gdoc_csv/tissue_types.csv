@@ -1,0 +1,18 @@
+ID,PARENT,CODE,DEF COLOUR,NAME,COMMENT,ONTOLOGY,COLOR
+0,-1,NI,,No Semantics,"No further semantics is given, why the information is missing",,#ffffff
+1,-1,UNC,,Not Encoded,The actual value has not yet been encoded within the approved value domain. ,,#f3f3f3
+2,-1,UNK,,Unknown,"A proper value is applicable, but not known. This is typically the case, if there are artefacts (tissue folds or overlap, etc.) which do not allow a classification",,#d9d9d9
+3,-1,NV,,No proper Value,"Known to have no proper value, this will be the most common null value e.g. when there is no tissue.",,#d9d9d9
+4,-1,EPITHELIUM,,Epithelial tissue,This tissue covers the entire body and all internal hollow organs. It serves as a protective layer and is also involved in the secretion and absorption processes.,,#93c47d
+5,-1,MUSCLE,,Muscle tissue,This tissue allows movement and is divided into three main types,http://purl.obolibrary.org/obo/BTO_0000887,#b45f06
+6,5,MUSCLE-SKELETAL,,Muscle Skeletal,Skeletal muscle tissue: Allows voluntary movement and support,,#e69138
+7,5,MUSCLE-SMOOTH,,Muscle Smooth,Provides involuntary movement of internal organs such as the stomach or intestines,,#f1c232
+8,5,MUSCLE-CARDIAC,,Muscle Cardiac,Cardiac muscle tissue (cardiomyocytes): Responsible for the contraction of the heart,,#e6b8af
+9,-1,NERVE,,Nervous tissue, This tissue consists of neurons and glial cells that transmit and process information to coordinate all the body's functions.,,#ffff00
+10,-1,CONNECTIVE-TISSUE,,Conective Tissue,Connective tissue: This very diverse tissue provides structure and support for other tissues and organs,,#1155cc
+11,10,CONNECTIVE-TISSUE-LOOSE,,Conective Tissue Loose,Loose connective tissue: Fills spaces between organs and supports epithelium and many internal organs,,#3c78d8
+12,10,CONNECTIVE-TISSUE-DENSE,,Conective Tissue Dense,Dense connective tissue: Contains tendons and ligaments,,#0000ff
+13,10,CONNECTIVE-TISSUE-FAT,,Conective Tissue Fat,Fatty tissue: Stores energy and serves as padding,,#cfe2f3
+14,10,CONNECTIVE-TISSUE-LYMPHATIC,,Conective Tissue Lymphatic,Transports nutrients and waste products,,#a2c4c9
+15,10,CONNECTIVE-TISSUE-BLOOD,,Conective Tissue Blood,Transports nutrients and waste products,,#9900ff
+16,10,CONNECTIVE-TISSUE-CARTILAGE,,Conective Tissue Cartilage,"Provides structural components for many organs (e.g. nose, ears, joints)",,#1c4587

@@ -1,0 +1,763 @@
+[
+  {
+    "id": 0,
+    "name": "Layer 0 - Organ",
+    "children": [
+      {
+        "id": 0,
+        "code": "NI",
+        "name": "No Semantics",
+        "color": "#ffffff",
+        "comment": "No further semantics is given, why the information is missing"
+      },
+      {
+        "id": 1,
+        "code": "UNC",
+        "name": "Not Encoded",
+        "color": "#f3f3f3",
+        "comment": "The actual value has not yet been encoded within the approved value domain. "
+      },
+      {
+        "id": 2,
+        "code": "UNK",
+        "name": "Unknown",
+        "color": "#d9d9d9",
+        "comment": "A proper value is applicable, but not known. This is typically the case, if there are artefacts (air bubbles), etc which do not allow a classification"
+      },
+      {
+        "id": 3,
+        "code": "NV",
+        "name": "No proper Value",
+        "color": "#d9d9d9",
+        "comment": "Known to have no proper value, this will be the most common null value e.g. when there is no tissue. "
+      },
+      {
+        "id": 4,
+        "code": "C00",
+        "name": "C00: Lip",
+        "color": "#ffffff",
+        "comment": "Lip"
+      },
+      {
+        "id": 5,
+        "code": "C01",
+        "name": "C01: Base of Tongue",
+        "color": "#ffffff",
+        "comment": "Base of Tongue"
+      },
+      {
+        "id": 6,
+        "code": "C02",
+        "name": "C02: Other and Unspecified Parts of Tongue",
+        "color": "#ffffff",
+        "comment": "Other and Unspecified Parts of Tongue"
+      },
+      {
+        "id": 7,
+        "code": "C03",
+        "name": "C03: Gum",
+        "color": "#ffffff",
+        "comment": "Gum"
+      },
+      {
+        "id": 8,
+        "code": "C04",
+        "name": "C04: Floor of Mouth",
+        "color": "#ffffff",
+        "comment": "Floor of Mouth"
+      },
+      {
+        "id": 9,
+        "code": "C05",
+        "name": "C05: Palate",
+        "color": "#ffffff",
+        "comment": "Palate"
+      },
+      {
+        "id": 10,
+        "code": "C06",
+        "name": "C06: Other and Unspecified Parts of Mouth",
+        "color": "#ffffff",
+        "comment": "Other and Unspecified Parts of Mouth"
+      },
+      {
+        "id": 11,
+        "code": "C07",
+        "name": "C07: Parotid Gland",
+        "color": "#ffffff",
+        "comment": "Parotid Gland"
+      },
+      {
+        "id": 12,
+        "code": "C08",
+        "name": "C08: Other and Unspecified Major Salivary Glands",
+        "color": "#ffffff",
+        "comment": "Other and Unspecified Major Salivary Glands"
+      },
+      {
+        "id": 13,
+        "code": "C09",
+        "name": "C09: Tonsil",
+        "color": "#ffffff",
+        "comment": "Tonsil"
+      },
+      {
+        "id": 14,
+        "code": "C10",
+        "name": "C10: Oropharynx",
+        "color": "#ffffff",
+        "comment": "Oropharynx"
+      },
+      {
+        "id": 15,
+        "code": "C11",
+        "name": "C11: Nasopharynx",
+        "color": "#ffffff",
+        "comment": "Nasopharynx"
+      },
+      {
+        "id": 16,
+        "code": "C12",
+        "name": "C12: Pyriform Sinus",
+        "color": "#ffffff",
+        "comment": "Pyriform Sinus"
+      },
+      {
+        "id": 17,
+        "code": "C13",
+        "name": "C13: Hypopharynx",
+        "color": "#ffffff",
+        "comment": "Hypopharynx"
+      },
+      {
+        "id": 18,
+        "code": "C14",
+        "name": "C14: Other and Ill-Defined Sites in the Lip, Oral Cavity, and Pharynx",
+        "color": "#ffffff",
+        "comment": "Other and Ill-Defined Sites in the Lip, Oral Cavity, and Pharynx"
+      },
+      {
+        "id": 19,
+        "code": "C15",
+        "name": "C15: Oesophagus",
+        "color": "#ffffff",
+        "comment": "Oesophagus"
+      },
+      {
+        "id": 20,
+        "code": "C16",
+        "name": "C16: Stomach",
+        "color": "#ffffff",
+        "comment": "Stomach"
+      },
+      {
+        "id": 21,
+        "code": "C17",
+        "name": "C17: Small Intestine",
+        "color": "#ffffff",
+        "comment": "Small Intestine"
+      },
+      {
+        "id": 22,
+        "code": "C18",
+        "name": "C18: Colon",
+        "color": "#ffffff",
+        "comment": "Colon"
+      },
+      {
+        "id": 23,
+        "code": "C19",
+        "name": "C19: Rectosigmoid Junction",
+        "color": "#ffffff",
+        "comment": "Rectosigmoid Junction"
+      },
+      {
+        "id": 24,
+        "code": "C20",
+        "name": "C20: Rectum",
+        "color": "#ffffff",
+        "comment": "Rectum"
+      },
+      {
+        "id": 25,
+        "code": "C21",
+        "name": "C21: Anus and Anal Canal",
+        "color": "#ffffff",
+        "comment": "Anus and Anal Canal"
+      },
+      {
+        "id": 26,
+        "code": "C22",
+        "name": "C22: Liver and Intrahepatic Bile Ducts",
+        "color": "#ffffff",
+        "comment": "Liver and Intrahepatic Bile Ducts"
+      },
+      {
+        "id": 27,
+        "code": "C23",
+        "name": "C23: Gallbladder",
+        "color": "#ffffff",
+        "comment": "Gallbladder"
+      },
+      {
+        "id": 28,
+        "code": "C24",
+        "name": "C24: Other and Unspecified Parts of Biliary Tract",
+        "color": "#ffffff",
+        "comment": "Other and Unspecified Parts of Biliary Tract"
+      },
+      {
+        "id": 29,
+        "code": "C25",
+        "name": "C25: Pancreas",
+        "color": "#ffffff",
+        "comment": "Pancreas"
+      },
+      {
+        "id": 30,
+        "code": "C26",
+        "name": "C26: Other and Ill-Defined Digestive Organs",
+        "color": "#ffffff",
+        "comment": "Other and Ill-Defined Digestive Organs"
+      },
+      {
+        "id": 31,
+        "code": "C30",
+        "name": "C30: Nasal Cavity and Middle Ear",
+        "color": "#ffffff",
+        "comment": "Nasal Cavity and Middle Ear"
+      },
+      {
+        "id": 32,
+        "code": "C31",
+        "name": "C31: Accessory Sinuses",
+        "color": "#ffffff",
+        "comment": "Accessory Sinuses"
+      },
+      {
+        "id": 33,
+        "code": "C32",
+        "name": "C32: Larynx",
+        "color": "#ffffff",
+        "comment": "Larynx"
+      },
+      {
+        "id": 34,
+        "code": "C33",
+        "name": "C33: Trachea",
+        "color": "#ffffff",
+        "comment": "Trachea"
+      },
+      {
+        "id": 35,
+        "code": "C34",
+        "name": "C34: Bronchus and Lung",
+        "color": "#ffffff",
+        "comment": "Bronchus and Lung"
+      },
+      {
+        "id": 36,
+        "code": "C37",
+        "name": "C37: Thymus",
+        "color": "#ffffff",
+        "comment": "Thymus"
+      },
+      {
+        "id": 37,
+        "code": "C38",
+        "name": "C38: Heart, Mediastinum, and Pleura",
+        "color": "#ffffff",
+        "comment": "Heart, Mediastinum, and Pleura"
+      },
+      {
+        "id": 38,
+        "code": "C39",
+        "name": "C39: Other and Ill-Defined Sites in the Respiratory System and Intrathoracic Organs",
+        "color": "#ffffff",
+        "comment": "Other and Ill-Defined Sites in the Respiratory System and Intrathoracic Organs"
+      },
+      {
+        "id": 39,
+        "code": "C40",
+        "name": "C40: Bone and Articular Cartilage of Limbs",
+        "color": "#ffffff",
+        "comment": "Bone and Articular Cartilage of Limbs"
+      },
+      {
+        "id": 40,
+        "code": "C41",
+        "name": "C41: Bone and Articular Cartilage of Other and Unspecified Sites",
+        "color": "#ffffff",
+        "comment": "Bone and Articular Cartilage of Other and Unspecified Sites"
+      },
+      {
+        "id": 41,
+        "code": "C42",
+        "name": "C42: Hematopoietic and Reticuloendothelial Systems",
+        "color": "#ffffff",
+        "comment": "Hematopoietic and Reticuloendothelial Systems"
+      },
+      {
+        "id": 42,
+        "code": "C44",
+        "name": "C44: Skin",
+        "color": "#ffffff",
+        "comment": "Skin"
+      },
+      {
+        "id": 43,
+        "code": "C47",
+        "name": "C47: Peripheral Nerves and Autonomic Nervous System",
+        "color": "#ffffff",
+        "comment": "Peripheral Nerves and Autonomic Nervous System"
+      },
+      {
+        "id": 44,
+        "code": "C48",
+        "name": "C48: Retroperitoneum and Peritoneum",
+        "color": "#ffffff",
+        "comment": "Retroperitoneum and Peritoneum"
+      },
+      {
+        "id": 45,
+        "code": "C49",
+        "name": "C49: Connective, Subcutaneous and other Soft Tissues ",
+        "color": "#ffffff",
+        "comment": "Connective, Subcutaneous and other Soft Tissues "
+      },
+      {
+        "id": 46,
+        "code": "C50",
+        "name": "C50: Breast",
+        "color": "#ffffff",
+        "comment": "Breast"
+      },
+      {
+        "id": 47,
+        "code": "C51",
+        "name": "C51: Vulva",
+        "color": "#ffffff",
+        "comment": "Vulva"
+      },
+      {
+        "id": 48,
+        "code": "C52",
+        "name": "C52: Vagina",
+        "color": "#ffffff",
+        "comment": "Vagina"
+      },
+      {
+        "id": 49,
+        "code": "C53",
+        "name": "C53: Cervix Uteri",
+        "color": "#ffffff",
+        "comment": "Cervix Uteri"
+      },
+      {
+        "id": 50,
+        "code": "C54",
+        "name": "C54: Corpus Uteri",
+        "color": "#ffffff",
+        "comment": "Corpus Uteri"
+      },
+      {
+        "id": 51,
+        "code": "C55",
+        "name": "C55: Uterus, Part Unspecified",
+        "color": "#ffffff",
+        "comment": "Uterus, Part Unspecified"
+      },
+      {
+        "id": 52,
+        "code": "C56",
+        "name": "C56: Ovary",
+        "color": "#ffffff",
+        "comment": "Ovary"
+      },
+      {
+        "id": 53,
+        "code": "C57",
+        "name": "C57: Other and Unspecified Female Genital Organs",
+        "color": "#ffffff",
+        "comment": "Other and Unspecified Female Genital Organs"
+      },
+      {
+        "id": 54,
+        "code": "C58",
+        "name": "C58: Placenta",
+        "color": "#ffffff",
+        "comment": "Placenta"
+      },
+      {
+        "id": 55,
+        "code": "C60",
+        "name": "C60: Penis",
+        "color": "#ffffff",
+        "comment": "Penis"
+      },
+      {
+        "id": 56,
+        "code": "C61",
+        "name": "C61: Prostate Gland",
+        "color": "#ffffff",
+        "comment": "Prostate Gland"
+      },
+      {
+        "id": 57,
+        "code": "C62",
+        "name": "C62: Testis",
+        "color": "#ffffff",
+        "comment": "Testis"
+      },
+      {
+        "id": 58,
+        "code": "C63",
+        "name": "C63: Other and Unspecified Male Genital Organs",
+        "color": "#ffffff",
+        "comment": "Other and Unspecified Male Genital Organs"
+      },
+      {
+        "id": 59,
+        "code": "C64",
+        "name": "C64: Kidney",
+        "color": "#ffffff",
+        "comment": "Kidney"
+      },
+      {
+        "id": 60,
+        "code": "C65",
+        "name": "C65: Renal Pelvis",
+        "color": "#ffffff",
+        "comment": "Renal Pelvis"
+      },
+      {
+        "id": 61,
+        "code": "C66",
+        "name": "C66: Ureter",
+        "color": "#ffffff",
+        "comment": "Ureter"
+      },
+      {
+        "id": 62,
+        "code": "C67",
+        "name": "C67: Bladder",
+        "color": "#ffffff",
+        "comment": "Bladder"
+      },
+      {
+        "id": 63,
+        "code": "C68",
+        "name": "C68: Other and Unspecified Urinary Organs",
+        "color": "#ffffff",
+        "comment": "Other and Unspecified Urinary Organs"
+      },
+      {
+        "id": 64,
+        "code": "C69",
+        "name": "C69: Eye and Adnexa",
+        "color": "#ffffff",
+        "comment": "Eye and Adnexa"
+      },
+      {
+        "id": 65,
+        "code": "C70",
+        "name": "C70: Meninges",
+        "color": "#ffffff",
+        "comment": "Meninges"
+      },
+      {
+        "id": 66,
+        "code": "C71",
+        "name": "C71: Brain",
+        "color": "#ffffff",
+        "comment": "Brain"
+      },
+      {
+        "id": 67,
+        "code": "C72",
+        "name": "C72: Spinal Cord, Cranial Nerves, and Other Parts of Central Nervous System",
+        "color": "#ffffff",
+        "comment": "Spinal Cord, Cranial Nerves, and Other Parts of Central Nervous System"
+      },
+      {
+        "id": 68,
+        "code": "C73",
+        "name": "C73: Thyroid Gland",
+        "color": "#ffffff",
+        "comment": "Thyroid Gland"
+      },
+      {
+        "id": 69,
+        "code": "C74",
+        "name": "C74: Adrenal Gland",
+        "color": "#ffffff",
+        "comment": "Adrenal Gland"
+      },
+      {
+        "id": 70,
+        "code": "C75",
+        "name": "C75: Other Endocrine Glands and Related Structures",
+        "color": "#ffffff",
+        "comment": "Other Endocrine Glands and Related Structures"
+      },
+      {
+        "id": 71,
+        "code": "C76",
+        "name": "C76: Other and Ill-Defined Sites",
+        "color": "#ffffff",
+        "comment": "Other and Ill-Defined Sites"
+      },
+      {
+        "id": 72,
+        "code": "C77",
+        "name": "C77: Lymph Nodes",
+        "color": "#ffffff",
+        "comment": "Lymph Nodes"
+      },
+      {
+        "id": 73,
+        "code": "C80",
+        "name": "C80: Malignant Neoplasm without Specification of Site",
+        "color": "#ffffff",
+        "comment": "Malignant Neoplasm without Specification of Site"
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "name": "Layer 1 - Tissue Type",
+    "children": [
+      {
+        "id": 0,
+        "code": "NI",
+        "name": "No Semantics",
+        "color": "#ffffff",
+        "comment": "No further semantics is given, why the information is missing"
+      },
+      {
+        "id": 1,
+        "code": "UNC",
+        "name": "Not Encoded",
+        "color": "#f3f3f3",
+        "comment": "The actual value has not yet been encoded within the approved value domain. "
+      },
+      {
+        "id": 2,
+        "code": "UNK",
+        "name": "Unknown",
+        "color": "#d9d9d9",
+        "comment": "A proper value is applicable, but not known. This is typically the case, if there are artefacts (tissue folds or overlap, etc.) which do not allow a classification"
+      },
+      {
+        "id": 3,
+        "code": "NV",
+        "name": "No proper Value",
+        "color": "#d9d9d9",
+        "comment": "Known to have no proper value, this will be the most common null value e.g. when there is no tissue."
+      },
+      {
+        "id": 4,
+        "code": "EPITHELIUM",
+        "name": "Epithelial tissue",
+        "color": "#93c47d",
+        "comment": "This tissue covers the entire body and all internal hollow organs. It serves as a protective layer and is also involved in the secretion and absorption processes."
+      },
+      {
+        "id": 5,
+        "code": "MUSCLE",
+        "name": "Muscle tissue",
+        "color": "#b45f06",
+        "comment": "This tissue allows movement and is divided into three main types",
+        "children": [
+          {
+            "id": 6,
+            "code": "MUSCLE-SKELETAL",
+            "name": "Muscle Skeletal",
+            "color": "#e69138",
+            "comment": "Skeletal muscle tissue: Allows voluntary movement and support",
+            "parent": 5
+          },
+          {
+            "id": 7,
+            "code": "MUSCLE-SMOOTH",
+            "name": "Muscle Smooth",
+            "color": "#f1c232",
+            "comment": "Provides involuntary movement of internal organs such as the stomach or intestines",
+            "parent": 5
+          },
+          {
+            "id": 8,
+            "code": "MUSCLE-CARDIAC",
+            "name": "Muscle Cardiac",
+            "color": "#e6b8af",
+            "comment": "Cardiac muscle tissue (cardiomyocytes): Responsible for the contraction of the heart",
+            "parent": 5
+          }
+        ]
+      },
+      {
+        "id": 9,
+        "code": "NERVE",
+        "name": "Nervous tissue",
+        "color": "#ffff00",
+        "comment": " This tissue consists of neurons and glial cells that transmit and process information to coordinate all the body's functions."
+      },
+      {
+        "id": 10,
+        "code": "CONNECTIVE-TISSUE",
+        "name": "Conective Tissue",
+        "color": "#1155cc",
+        "comment": "Connective tissue: This very diverse tissue provides structure and support for other tissues and organs",
+        "children": [
+          {
+            "id": 11,
+            "code": "CONNECTIVE-TISSUE-LOOSE",
+            "name": "Conective Tissue Loose",
+            "color": "#3c78d8",
+            "comment": "Loose connective tissue: Fills spaces between organs and supports epithelium and many internal organs",
+            "parent": 10
+          },
+          {
+            "id": 12,
+            "code": "CONNECTIVE-TISSUE-DENSE",
+            "name": "Conective Tissue Dense",
+            "color": "#0000ff",
+            "comment": "Dense connective tissue: Contains tendons and ligaments",
+            "parent": 10
+          },
+          {
+            "id": 13,
+            "code": "CONNECTIVE-TISSUE-FAT",
+            "name": "Conective Tissue Fat",
+            "color": "#cfe2f3",
+            "comment": "Fatty tissue: Stores energy and serves as padding",
+            "parent": 10
+          },
+          {
+            "id": 14,
+            "code": "CONNECTIVE-TISSUE-LYMPHATIC",
+            "name": "Conective Tissue Lymphatic",
+            "color": "#a2c4c9",
+            "comment": "Transports nutrients and waste products",
+            "parent": 10
+          },
+          {
+            "id": 15,
+            "code": "CONNECTIVE-TISSUE-BLOOD",
+            "name": "Conective Tissue Blood",
+            "color": "#9900ff",
+            "comment": "Transports nutrients and waste products",
+            "parent": 10
+          },
+          {
+            "id": 16,
+            "code": "CONNECTIVE-TISSUE-CARTILAGE",
+            "name": "Conective Tissue Cartilage",
+            "color": "#1c4587",
+            "comment": "Provides structural components for many organs (e.g. nose, ears, joints)",
+            "parent": 10
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Layer 2 - Pathological Alteration",
+    "children": [
+      {
+        "id": 0,
+        "code": "NI",
+        "name": "No Semantics",
+        "color": "#ffffff",
+        "comment": "No further semantics is given, why the information is missing"
+      },
+      {
+        "id": 1,
+        "code": "UNC",
+        "name": "Not Encoded",
+        "color": "#f3f3f3",
+        "comment": "The actual value has not yet been encoded within the approved value domain. "
+      },
+      {
+        "id": 2,
+        "code": "UNK",
+        "name": "Unknown",
+        "color": "#d9d9d9",
+        "comment": "A proper value is applicable, but not known. This is typically the case, if there are artefacts (air bubbles), etc which do not allow a classification"
+      },
+      {
+        "id": 3,
+        "code": "NV",
+        "name": "No proper Value",
+        "color": "#d9d9d9",
+        "comment": "Known to have no proper value, this will be the most common null value e.g. when there is normal tissue"
+      },
+      {
+        "id": 4,
+        "code": "INFLAMMATION",
+        "name": "Inflammation",
+        "color": "#e06666",
+        "comment": "",
+        "children": [
+          {
+            "id": 5,
+            "code": "INFLAMMATION-ACUTE",
+            "name": "Inflammation Acute",
+            "color": "#ea9999",
+            "comment": "",
+            "parent": 4
+          },
+          {
+            "id": 6,
+            "code": "INFLAMMATION-CHRONIC",
+            "name": "Inflammation Chronic",
+            "color": "#cc0000",
+            "comment": "",
+            "parent": 4
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "code": "NECROSIS",
+        "name": "Necrosis",
+        "color": "#666666",
+        "comment": ""
+      },
+      {
+        "id": 8,
+        "code": "NEOPLASTIC",
+        "name": "Neoplastic",
+        "color": "#4a86e8",
+        "comment": "",
+        "children": [
+          {
+            "id": 9,
+            "code": "NEOPLASTIC-BENIGN",
+            "name": "Neoplastic Benign",
+            "color": "#3c78d8",
+            "comment": "",
+            "parent": 8
+          },
+          {
+            "id": 10,
+            "code": "NEOPLASTIC-MALIGNANT",
+            "name": "Neoplastic Malignant",
+            "color": "#1155cc",
+            "comment": "",
+            "parent": 8
+          },
+          {
+            "id": 11,
+            "code": "NEOPLASTIC-METASTATIC",
+            "name": "Neoplastic Metastatic",
+            "color": "#674ea7",
+            "comment": "",
+            "parent": 8
+          }
+        ]
+      }
+    ]
+  }
+]
