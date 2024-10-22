@@ -4,7 +4,8 @@ import json
 
 if __name__ == '__main__':
     input_files = ['profiles/gdoc_csv/source.csv', 'profiles/gdoc_csv/tissue_types.csv', 'profiles/gdoc_csv/pathological_alterations.csv']
-    cols = ['CODE', 'NAME', 'PARENT', 'COLOR', 'COMMENT']
+    #input_files = ['profiles/gdoc_csv/source_RGB.csv', 'profiles/gdoc_csv/tissue_types_RGB.csv', 'profiles/gdoc_csv/pathological_alterations_RGB.csv']
+    cols = ['CODE', 'NAME', 'PARENT', 'COLOR', 'COMMENT', 'CONCEPT']
     layer_names = ['Source', 'Tissue Type', 'Pathological Alteration']
 
     layer_nodes = []
@@ -13,10 +14,12 @@ if __name__ == '__main__':
         df = pd.read_csv(file)
         df['COMMENT'] = df['COMMENT'].fillna('')
         df['CODE'] = df['CODE'].fillna('')
+        df['CONCEPT'] = df['CONCEPT'].fillna('')
+        df['ONTOLOGY'] = df['ONTOLOGY'].fillna('')
 
         nodes = {}
         for idx, row in df.iterrows():
-            nodes[row['ID']] = {'id': row['ID'], "code": row['CODE'], "name": row['NAME'], "color": row['COLOR'], 'comment': row['COMMENT'], 'parent': row['PARENT']}
+            nodes[row['ID']] = {'id': row['ID'], "code": row['CODE'], "name": row['NAME'], "color": row['COLOR'], 'comment': row['COMMENT'], 'parent': row['PARENT'], 'concept': row['CONCEPT'], 'ontology': row['ONTOLOGY']}
 
         # Attach child nodes to their parents
         for idx, row in df.iterrows():

@@ -7,519 +7,667 @@
         "id": 0,
         "code": "NI",
         "name": "No Semantics",
-        "color": "#ffffff",
-        "comment": "No further semantics is given, why the information is missing"
+        "color": "#f2bbce",
+        "comment": "No further semantics is given, why the information is missing",
+        "concept": "",
+        "ontology": ""
       },
       {
         "id": 1,
         "code": "UNC",
         "name": "Not Encoded",
-        "color": "#f3f3f3",
-        "comment": "The actual value has not yet been encoded within the approved value domain. "
+        "color": "#52c7bb",
+        "comment": "The actual value has not yet been encoded within the approved value domain. ",
+        "concept": "",
+        "ontology": ""
       },
       {
         "id": 2,
         "code": "UNK",
         "name": "Unknown",
-        "color": "#d9d9d9",
-        "comment": "A proper value is applicable, but not known. This is typically the case, if there are artefacts (air bubbles), etc which do not allow a classification"
+        "color": "#5352aa",
+        "comment": "A proper value is applicable, but not known. This is typically the case, if there are artefacts (air bubbles), etc which do not allow a classification",
+        "concept": "",
+        "ontology": ""
       },
       {
         "id": 3,
         "code": "NV",
         "name": "No proper Value",
-        "color": "#d9d9d9",
-        "comment": "Known to have no proper value, this will be the most common null value e.g. when there is no tissue. "
+        "color": "#f1ea1d",
+        "comment": "Known to have no proper value, this will be the most common null value e.g. when there is no tissue. ",
+        "concept": "",
+        "ontology": ""
       },
       {
         "id": 4,
         "code": "C00",
         "name": "C00: Lip",
         "color": "#ffffff",
-        "comment": "Lip"
+        "comment": "Lip",
+        "concept": "https://data.jrc.ec.europa.eu/collection/ICDO3_O#C00",
+        "ontology": "https://bioportal.bioontology.org/ontologies/ICD-O-3/?p=classes&conceptid=https%3A%2F%2Fdata.jrc.ec.europa.eu%2Fcollection%2FICDO3_O%23C00"
       },
       {
         "id": 5,
         "code": "C01",
         "name": "C01: Base of Tongue",
         "color": "#ffffff",
-        "comment": "Base of Tongue"
+        "comment": "Base of Tongue",
+        "concept": "https://data.jrc.ec.europa.eu/collection/ICDO3_O#C01",
+        "ontology": "https://bioportal.bioontology.org/ontologies/ICD-O-3/?p=classes&conceptid=https%3A%2F%2Fdata.jrc.ec.europa.eu%2Fcollection%2FICDO3_O%23C01"
       },
       {
         "id": 6,
         "code": "C02",
         "name": "C02: Other and Unspecified Parts of Tongue",
         "color": "#ffffff",
-        "comment": "Other and Unspecified Parts of Tongue"
+        "comment": "Other and Unspecified Parts of Tongue",
+        "concept": "https://data.jrc.ec.europa.eu/collection/ICDO3_O#C02",
+        "ontology": "https://bioportal.bioontology.org/ontologies/ICD-O-3/?p=classes&conceptid=https%3A%2F%2Fdata.jrc.ec.europa.eu%2Fcollection%2FICDO3_O%23C02"
       },
       {
         "id": 7,
         "code": "C03",
         "name": "C03: Gum",
         "color": "#ffffff",
-        "comment": "Gum"
+        "comment": "Gum",
+        "concept": "https://data.jrc.ec.europa.eu/collection/ICDO3_O#C03",
+        "ontology": "https://bioportal.bioontology.org/ontologies/ICD-O-3/?p=classes&conceptid=https%3A%2F%2Fdata.jrc.ec.europa.eu%2Fcollection%2FICDO3_O%23C03"
       },
       {
         "id": 8,
         "code": "C04",
         "name": "C04: Floor of Mouth",
         "color": "#ffffff",
-        "comment": "Floor of Mouth"
+        "comment": "Floor of Mouth",
+        "concept": "https://data.jrc.ec.europa.eu/collection/ICDO3_O#C04",
+        "ontology": "https://bioportal.bioontology.org/ontologies/ICD-O-3/?p=classes&conceptid=https%3A%2F%2Fdata.jrc.ec.europa.eu%2Fcollection%2FICDO3_O%23C04"
       },
       {
         "id": 9,
         "code": "C05",
         "name": "C05: Palate",
         "color": "#ffffff",
-        "comment": "Palate"
+        "comment": "Palate",
+        "concept": "https://data.jrc.ec.europa.eu/collection/ICDO3_O#C05",
+        "ontology": "https://bioportal.bioontology.org/ontologies/ICD-O-3/?p=classes&conceptid=https%3A%2F%2Fdata.jrc.ec.europa.eu%2Fcollection%2FICDO3_O%23C05"
       },
       {
         "id": 10,
         "code": "C06",
         "name": "C06: Other and Unspecified Parts of Mouth",
         "color": "#ffffff",
-        "comment": "Other and Unspecified Parts of Mouth"
+        "comment": "Other and Unspecified Parts of Mouth",
+        "concept": "https://data.jrc.ec.europa.eu/collection/ICDO3_O#C06",
+        "ontology": "https://bioportal.bioontology.org/ontologies/ICD-O-3/?p=classes&conceptid=https%3A%2F%2Fdata.jrc.ec.europa.eu%2Fcollection%2FICDO3_O%23C06"
       },
       {
         "id": 11,
         "code": "C07",
         "name": "C07: Parotid Gland",
         "color": "#ffffff",
-        "comment": "Parotid Gland"
+        "comment": "Parotid Gland",
+        "concept": "https://data.jrc.ec.europa.eu/collection/ICDO3_O#C07",
+        "ontology": "https://bioportal.bioontology.org/ontologies/ICD-O-3/?p=classes&conceptid=https%3A%2F%2Fdata.jrc.ec.europa.eu%2Fcollection%2FICDO3_O%23C07"
       },
       {
         "id": 12,
         "code": "C08",
         "name": "C08: Other and Unspecified Major Salivary Glands",
         "color": "#ffffff",
-        "comment": "Other and Unspecified Major Salivary Glands"
+        "comment": "Other and Unspecified Major Salivary Glands",
+        "concept": "https://data.jrc.ec.europa.eu/collection/ICDO3_O#C08",
+        "ontology": "https://bioportal.bioontology.org/ontologies/ICD-O-3/?p=classes&conceptid=https%3A%2F%2Fdata.jrc.ec.europa.eu%2Fcollection%2FICDO3_O%23C08"
       },
       {
         "id": 13,
         "code": "C09",
         "name": "C09: Tonsil",
         "color": "#ffffff",
-        "comment": "Tonsil"
+        "comment": "Tonsil",
+        "concept": "https://data.jrc.ec.europa.eu/collection/ICDO3_O#C09",
+        "ontology": "https://bioportal.bioontology.org/ontologies/ICD-O-3/?p=classes&conceptid=https%3A%2F%2Fdata.jrc.ec.europa.eu%2Fcollection%2FICDO3_O%23C09"
       },
       {
         "id": 14,
         "code": "C10",
         "name": "C10: Oropharynx",
         "color": "#ffffff",
-        "comment": "Oropharynx"
+        "comment": "Oropharynx",
+        "concept": "https://data.jrc.ec.europa.eu/collection/ICDO3_O#C10",
+        "ontology": "https://bioportal.bioontology.org/ontologies/ICD-O-3/?p=classes&conceptid=https%3A%2F%2Fdata.jrc.ec.europa.eu%2Fcollection%2FICDO3_O%23C10"
       },
       {
         "id": 15,
         "code": "C11",
         "name": "C11: Nasopharynx",
         "color": "#ffffff",
-        "comment": "Nasopharynx"
+        "comment": "Nasopharynx",
+        "concept": "https://data.jrc.ec.europa.eu/collection/ICDO3_O#C11",
+        "ontology": "https://bioportal.bioontology.org/ontologies/ICD-O-3/?p=classes&conceptid=https%3A%2F%2Fdata.jrc.ec.europa.eu%2Fcollection%2FICDO3_O%23C11"
       },
       {
         "id": 16,
         "code": "C12",
         "name": "C12: Pyriform Sinus",
         "color": "#ffffff",
-        "comment": "Pyriform Sinus"
+        "comment": "Pyriform Sinus",
+        "concept": "https://data.jrc.ec.europa.eu/collection/ICDO3_O#C12",
+        "ontology": "https://bioportal.bioontology.org/ontologies/ICD-O-3/?p=classes&conceptid=https%3A%2F%2Fdata.jrc.ec.europa.eu%2Fcollection%2FICDO3_O%23C12"
       },
       {
         "id": 17,
         "code": "C13",
         "name": "C13: Hypopharynx",
         "color": "#ffffff",
-        "comment": "Hypopharynx"
+        "comment": "Hypopharynx",
+        "concept": "https://data.jrc.ec.europa.eu/collection/ICDO3_O#C13",
+        "ontology": "https://bioportal.bioontology.org/ontologies/ICD-O-3/?p=classes&conceptid=https%3A%2F%2Fdata.jrc.ec.europa.eu%2Fcollection%2FICDO3_O%23C13"
       },
       {
         "id": 18,
         "code": "C14",
         "name": "C14: Other and Ill-Defined Sites in the Lip, Oral Cavity, and Pharynx",
         "color": "#ffffff",
-        "comment": "Other and Ill-Defined Sites in the Lip, Oral Cavity, and Pharynx"
+        "comment": "Other and Ill-Defined Sites in the Lip, Oral Cavity, and Pharynx",
+        "concept": "https://data.jrc.ec.europa.eu/collection/ICDO3_O#C14",
+        "ontology": "https://bioportal.bioontology.org/ontologies/ICD-O-3/?p=classes&conceptid=https%3A%2F%2Fdata.jrc.ec.europa.eu%2Fcollection%2FICDO3_O%23C14"
       },
       {
         "id": 19,
         "code": "C15",
         "name": "C15: Oesophagus",
         "color": "#ffffff",
-        "comment": "Oesophagus"
+        "comment": "Oesophagus",
+        "concept": "https://data.jrc.ec.europa.eu/collection/ICDO3_O#C15",
+        "ontology": "https://bioportal.bioontology.org/ontologies/ICD-O-3/?p=classes&conceptid=https%3A%2F%2Fdata.jrc.ec.europa.eu%2Fcollection%2FICDO3_O%23C15"
       },
       {
         "id": 20,
         "code": "C16",
         "name": "C16: Stomach",
         "color": "#ffffff",
-        "comment": "Stomach"
+        "comment": "Stomach",
+        "concept": "https://data.jrc.ec.europa.eu/collection/ICDO3_O#C16",
+        "ontology": "https://bioportal.bioontology.org/ontologies/ICD-O-3/?p=classes&conceptid=https%3A%2F%2Fdata.jrc.ec.europa.eu%2Fcollection%2FICDO3_O%23C16"
       },
       {
         "id": 21,
         "code": "C17",
         "name": "C17: Small Intestine",
         "color": "#ffffff",
-        "comment": "Small Intestine"
+        "comment": "Small Intestine",
+        "concept": "https://data.jrc.ec.europa.eu/collection/ICDO3_O#C17",
+        "ontology": "https://bioportal.bioontology.org/ontologies/ICD-O-3/?p=classes&conceptid=https%3A%2F%2Fdata.jrc.ec.europa.eu%2Fcollection%2FICDO3_O%23C17"
       },
       {
         "id": 22,
         "code": "C18",
         "name": "C18: Colon",
         "color": "#ffffff",
-        "comment": "Colon"
+        "comment": "Colon",
+        "concept": "https://data.jrc.ec.europa.eu/collection/ICDO3_O#C18",
+        "ontology": "https://bioportal.bioontology.org/ontologies/ICD-O-3/?p=classes&conceptid=https%3A%2F%2Fdata.jrc.ec.europa.eu%2Fcollection%2FICDO3_O%23C18"
       },
       {
         "id": 23,
         "code": "C19",
         "name": "C19: Rectosigmoid Junction",
         "color": "#ffffff",
-        "comment": "Rectosigmoid Junction"
+        "comment": "Rectosigmoid Junction",
+        "concept": "https://data.jrc.ec.europa.eu/collection/ICDO3_O#C19",
+        "ontology": "https://bioportal.bioontology.org/ontologies/ICD-O-3/?p=classes&conceptid=https%3A%2F%2Fdata.jrc.ec.europa.eu%2Fcollection%2FICDO3_O%23C19"
       },
       {
         "id": 24,
         "code": "C20",
         "name": "C20: Rectum",
         "color": "#ffffff",
-        "comment": "Rectum"
+        "comment": "Rectum",
+        "concept": "https://data.jrc.ec.europa.eu/collection/ICDO3_O#C20",
+        "ontology": "https://bioportal.bioontology.org/ontologies/ICD-O-3/?p=classes&conceptid=https%3A%2F%2Fdata.jrc.ec.europa.eu%2Fcollection%2FICDO3_O%23C20"
       },
       {
         "id": 25,
         "code": "C21",
         "name": "C21: Anus and Anal Canal",
         "color": "#ffffff",
-        "comment": "Anus and Anal Canal"
+        "comment": "Anus and Anal Canal",
+        "concept": "https://data.jrc.ec.europa.eu/collection/ICDO3_O#C21",
+        "ontology": "https://bioportal.bioontology.org/ontologies/ICD-O-3/?p=classes&conceptid=https%3A%2F%2Fdata.jrc.ec.europa.eu%2Fcollection%2FICDO3_O%23C21"
       },
       {
         "id": 26,
         "code": "C22",
         "name": "C22: Liver and Intrahepatic Bile Ducts",
         "color": "#ffffff",
-        "comment": "Liver and Intrahepatic Bile Ducts"
+        "comment": "Liver and Intrahepatic Bile Ducts",
+        "concept": "https://data.jrc.ec.europa.eu/collection/ICDO3_O#C22",
+        "ontology": "https://bioportal.bioontology.org/ontologies/ICD-O-3/?p=classes&conceptid=https%3A%2F%2Fdata.jrc.ec.europa.eu%2Fcollection%2FICDO3_O%23C22"
       },
       {
         "id": 27,
         "code": "C23",
         "name": "C23: Gallbladder",
         "color": "#ffffff",
-        "comment": "Gallbladder"
+        "comment": "Gallbladder",
+        "concept": "https://data.jrc.ec.europa.eu/collection/ICDO3_O#C23",
+        "ontology": "https://bioportal.bioontology.org/ontologies/ICD-O-3/?p=classes&conceptid=https%3A%2F%2Fdata.jrc.ec.europa.eu%2Fcollection%2FICDO3_O%23C23"
       },
       {
         "id": 28,
         "code": "C24",
         "name": "C24: Other and Unspecified Parts of Biliary Tract",
         "color": "#ffffff",
-        "comment": "Other and Unspecified Parts of Biliary Tract"
+        "comment": "Other and Unspecified Parts of Biliary Tract",
+        "concept": "https://data.jrc.ec.europa.eu/collection/ICDO3_O#C24",
+        "ontology": "https://bioportal.bioontology.org/ontologies/ICD-O-3/?p=classes&conceptid=https%3A%2F%2Fdata.jrc.ec.europa.eu%2Fcollection%2FICDO3_O%23C24"
       },
       {
         "id": 29,
         "code": "C25",
         "name": "C25: Pancreas",
         "color": "#ffffff",
-        "comment": "Pancreas"
+        "comment": "Pancreas",
+        "concept": "https://data.jrc.ec.europa.eu/collection/ICDO3_O#C25",
+        "ontology": "https://bioportal.bioontology.org/ontologies/ICD-O-3/?p=classes&conceptid=https%3A%2F%2Fdata.jrc.ec.europa.eu%2Fcollection%2FICDO3_O%23C25"
       },
       {
         "id": 30,
         "code": "C26",
         "name": "C26: Other and Ill-Defined Digestive Organs",
         "color": "#ffffff",
-        "comment": "Other and Ill-Defined Digestive Organs"
+        "comment": "Other and Ill-Defined Digestive Organs",
+        "concept": "https://data.jrc.ec.europa.eu/collection/ICDO3_O#C26",
+        "ontology": "https://bioportal.bioontology.org/ontologies/ICD-O-3/?p=classes&conceptid=https%3A%2F%2Fdata.jrc.ec.europa.eu%2Fcollection%2FICDO3_O%23C26"
       },
       {
         "id": 31,
         "code": "C30",
         "name": "C30: Nasal Cavity and Middle Ear",
         "color": "#ffffff",
-        "comment": "Nasal Cavity and Middle Ear"
+        "comment": "Nasal Cavity and Middle Ear",
+        "concept": "https://data.jrc.ec.europa.eu/collection/ICDO3_O#C30",
+        "ontology": "https://bioportal.bioontology.org/ontologies/ICD-O-3/?p=classes&conceptid=https%3A%2F%2Fdata.jrc.ec.europa.eu%2Fcollection%2FICDO3_O%23C30"
       },
       {
         "id": 32,
         "code": "C31",
         "name": "C31: Accessory Sinuses",
         "color": "#ffffff",
-        "comment": "Accessory Sinuses"
+        "comment": "Accessory Sinuses",
+        "concept": "https://data.jrc.ec.europa.eu/collection/ICDO3_O#C31",
+        "ontology": "https://bioportal.bioontology.org/ontologies/ICD-O-3/?p=classes&conceptid=https%3A%2F%2Fdata.jrc.ec.europa.eu%2Fcollection%2FICDO3_O%23C31"
       },
       {
         "id": 33,
         "code": "C32",
         "name": "C32: Larynx",
         "color": "#ffffff",
-        "comment": "Larynx"
+        "comment": "Larynx",
+        "concept": "https://data.jrc.ec.europa.eu/collection/ICDO3_O#C32",
+        "ontology": "https://bioportal.bioontology.org/ontologies/ICD-O-3/?p=classes&conceptid=https%3A%2F%2Fdata.jrc.ec.europa.eu%2Fcollection%2FICDO3_O%23C32"
       },
       {
         "id": 34,
         "code": "C33",
         "name": "C33: Trachea",
         "color": "#ffffff",
-        "comment": "Trachea"
+        "comment": "Trachea",
+        "concept": "https://data.jrc.ec.europa.eu/collection/ICDO3_O#C33",
+        "ontology": "https://bioportal.bioontology.org/ontologies/ICD-O-3/?p=classes&conceptid=https%3A%2F%2Fdata.jrc.ec.europa.eu%2Fcollection%2FICDO3_O%23C33"
       },
       {
         "id": 35,
         "code": "C34",
         "name": "C34: Bronchus and Lung",
         "color": "#ffffff",
-        "comment": "Bronchus and Lung"
+        "comment": "Bronchus and Lung",
+        "concept": "https://data.jrc.ec.europa.eu/collection/ICDO3_O#C34",
+        "ontology": "https://bioportal.bioontology.org/ontologies/ICD-O-3/?p=classes&conceptid=https%3A%2F%2Fdata.jrc.ec.europa.eu%2Fcollection%2FICDO3_O%23C34"
       },
       {
         "id": 36,
         "code": "C37",
         "name": "C37: Thymus",
         "color": "#ffffff",
-        "comment": "Thymus"
+        "comment": "Thymus",
+        "concept": "https://data.jrc.ec.europa.eu/collection/ICDO3_O#C37",
+        "ontology": "https://bioportal.bioontology.org/ontologies/ICD-O-3/?p=classes&conceptid=https%3A%2F%2Fdata.jrc.ec.europa.eu%2Fcollection%2FICDO3_O%23C37"
       },
       {
         "id": 37,
         "code": "C38",
         "name": "C38: Heart, Mediastinum, and Pleura",
         "color": "#ffffff",
-        "comment": "Heart, Mediastinum, and Pleura"
+        "comment": "Heart, Mediastinum, and Pleura",
+        "concept": "https://data.jrc.ec.europa.eu/collection/ICDO3_O#C38",
+        "ontology": "https://bioportal.bioontology.org/ontologies/ICD-O-3/?p=classes&conceptid=https%3A%2F%2Fdata.jrc.ec.europa.eu%2Fcollection%2FICDO3_O%23C38"
       },
       {
         "id": 38,
         "code": "C39",
         "name": "C39: Other and Ill-Defined Sites in the Respiratory System and Intrathoracic Organs",
         "color": "#ffffff",
-        "comment": "Other and Ill-Defined Sites in the Respiratory System and Intrathoracic Organs"
+        "comment": "Other and Ill-Defined Sites in the Respiratory System and Intrathoracic Organs",
+        "concept": "https://data.jrc.ec.europa.eu/collection/ICDO3_O#C39",
+        "ontology": "https://bioportal.bioontology.org/ontologies/ICD-O-3/?p=classes&conceptid=https%3A%2F%2Fdata.jrc.ec.europa.eu%2Fcollection%2FICDO3_O%23C39"
       },
       {
         "id": 39,
         "code": "C40",
         "name": "C40: Bone and Articular Cartilage of Limbs",
         "color": "#ffffff",
-        "comment": "Bone and Articular Cartilage of Limbs"
+        "comment": "Bone and Articular Cartilage of Limbs",
+        "concept": "https://data.jrc.ec.europa.eu/collection/ICDO3_O#C40",
+        "ontology": "https://bioportal.bioontology.org/ontologies/ICD-O-3/?p=classes&conceptid=https%3A%2F%2Fdata.jrc.ec.europa.eu%2Fcollection%2FICDO3_O%23C40"
       },
       {
         "id": 40,
         "code": "C41",
         "name": "C41: Bone and Articular Cartilage of Other and Unspecified Sites",
         "color": "#ffffff",
-        "comment": "Bone and Articular Cartilage of Other and Unspecified Sites"
+        "comment": "Bone and Articular Cartilage of Other and Unspecified Sites",
+        "concept": "https://data.jrc.ec.europa.eu/collection/ICDO3_O#C41",
+        "ontology": "https://bioportal.bioontology.org/ontologies/ICD-O-3/?p=classes&conceptid=https%3A%2F%2Fdata.jrc.ec.europa.eu%2Fcollection%2FICDO3_O%23C41"
       },
       {
         "id": 41,
         "code": "C42",
         "name": "C42: Hematopoietic and Reticuloendothelial Systems",
         "color": "#ffffff",
-        "comment": "Hematopoietic and Reticuloendothelial Systems"
+        "comment": "Hematopoietic and Reticuloendothelial Systems",
+        "concept": "https://data.jrc.ec.europa.eu/collection/ICDO3_O#C42",
+        "ontology": "https://bioportal.bioontology.org/ontologies/ICD-O-3/?p=classes&conceptid=https%3A%2F%2Fdata.jrc.ec.europa.eu%2Fcollection%2FICDO3_O%23C42"
       },
       {
         "id": 42,
         "code": "C44",
         "name": "C44: Skin",
         "color": "#ffffff",
-        "comment": "Skin"
+        "comment": "Skin",
+        "concept": "https://data.jrc.ec.europa.eu/collection/ICDO3_O#C44",
+        "ontology": "https://bioportal.bioontology.org/ontologies/ICD-O-3/?p=classes&conceptid=https%3A%2F%2Fdata.jrc.ec.europa.eu%2Fcollection%2FICDO3_O%23C44"
       },
       {
         "id": 43,
         "code": "C47",
         "name": "C47: Peripheral Nerves and Autonomic Nervous System",
         "color": "#ffffff",
-        "comment": "Peripheral Nerves and Autonomic Nervous System"
+        "comment": "Peripheral Nerves and Autonomic Nervous System",
+        "concept": "https://data.jrc.ec.europa.eu/collection/ICDO3_O#C47",
+        "ontology": "https://bioportal.bioontology.org/ontologies/ICD-O-3/?p=classes&conceptid=https%3A%2F%2Fdata.jrc.ec.europa.eu%2Fcollection%2FICDO3_O%23C47"
       },
       {
         "id": 44,
         "code": "C48",
         "name": "C48: Retroperitoneum and Peritoneum",
         "color": "#ffffff",
-        "comment": "Retroperitoneum and Peritoneum"
+        "comment": "Retroperitoneum and Peritoneum",
+        "concept": "https://data.jrc.ec.europa.eu/collection/ICDO3_O#C48",
+        "ontology": "https://bioportal.bioontology.org/ontologies/ICD-O-3/?p=classes&conceptid=https%3A%2F%2Fdata.jrc.ec.europa.eu%2Fcollection%2FICDO3_O%23C48"
       },
       {
         "id": 45,
         "code": "C49",
         "name": "C49: Connective, Subcutaneous and other Soft Tissues ",
         "color": "#ffffff",
-        "comment": "Connective, Subcutaneous and other Soft Tissues "
+        "comment": "Connective, Subcutaneous and other Soft Tissues ",
+        "concept": "https://data.jrc.ec.europa.eu/collection/ICDO3_O#C49",
+        "ontology": "https://bioportal.bioontology.org/ontologies/ICD-O-3/?p=classes&conceptid=https%3A%2F%2Fdata.jrc.ec.europa.eu%2Fcollection%2FICDO3_O%23C49"
       },
       {
         "id": 46,
         "code": "C50",
         "name": "C50: Breast",
-        "color": "#ffffff",
-        "comment": "Breast"
+        "color": "#8eaac4",
+        "comment": "Breast",
+        "concept": "https://data.jrc.ec.europa.eu/collection/ICDO3_O#C50",
+        "ontology": "https://bioportal.bioontology.org/ontologies/ICD-O-3/?p=classes&conceptid=https%3A%2F%2Fdata.jrc.ec.europa.eu%2Fcollection%2FICDO3_O%23C50"
       },
       {
         "id": 47,
         "code": "C51",
         "name": "C51: Vulva",
         "color": "#ffffff",
-        "comment": "Vulva"
+        "comment": "Vulva",
+        "concept": "https://data.jrc.ec.europa.eu/collection/ICDO3_O#C51",
+        "ontology": "https://bioportal.bioontology.org/ontologies/ICD-O-3/?p=classes&conceptid=https%3A%2F%2Fdata.jrc.ec.europa.eu%2Fcollection%2FICDO3_O%23C51"
       },
       {
         "id": 48,
         "code": "C52",
         "name": "C52: Vagina",
         "color": "#ffffff",
-        "comment": "Vagina"
+        "comment": "Vagina",
+        "concept": "https://data.jrc.ec.europa.eu/collection/ICDO3_O#C52",
+        "ontology": "https://bioportal.bioontology.org/ontologies/ICD-O-3/?p=classes&conceptid=https%3A%2F%2Fdata.jrc.ec.europa.eu%2Fcollection%2FICDO3_O%23C52"
       },
       {
         "id": 49,
         "code": "C53",
         "name": "C53: Cervix Uteri",
         "color": "#ffffff",
-        "comment": "Cervix Uteri"
+        "comment": "Cervix Uteri",
+        "concept": "https://data.jrc.ec.europa.eu/collection/ICDO3_O#C53",
+        "ontology": "https://bioportal.bioontology.org/ontologies/ICD-O-3/?p=classes&conceptid=https%3A%2F%2Fdata.jrc.ec.europa.eu%2Fcollection%2FICDO3_O%23C53"
       },
       {
         "id": 50,
         "code": "C54",
         "name": "C54: Corpus Uteri",
         "color": "#ffffff",
-        "comment": "Corpus Uteri"
+        "comment": "Corpus Uteri",
+        "concept": "https://data.jrc.ec.europa.eu/collection/ICDO3_O#C54",
+        "ontology": "https://bioportal.bioontology.org/ontologies/ICD-O-3/?p=classes&conceptid=https%3A%2F%2Fdata.jrc.ec.europa.eu%2Fcollection%2FICDO3_O%23C54"
       },
       {
         "id": 51,
         "code": "C55",
         "name": "C55: Uterus, Part Unspecified",
         "color": "#ffffff",
-        "comment": "Uterus, Part Unspecified"
+        "comment": "Uterus, Part Unspecified",
+        "concept": "https://data.jrc.ec.europa.eu/collection/ICDO3_O#C55",
+        "ontology": "https://bioportal.bioontology.org/ontologies/ICD-O-3/?p=classes&conceptid=https%3A%2F%2Fdata.jrc.ec.europa.eu%2Fcollection%2FICDO3_O%23C55"
       },
       {
         "id": 52,
         "code": "C56",
         "name": "C56: Ovary",
         "color": "#ffffff",
-        "comment": "Ovary"
+        "comment": "Ovary",
+        "concept": "https://data.jrc.ec.europa.eu/collection/ICDO3_O#C56",
+        "ontology": "https://bioportal.bioontology.org/ontologies/ICD-O-3/?p=classes&conceptid=https%3A%2F%2Fdata.jrc.ec.europa.eu%2Fcollection%2FICDO3_O%23C56"
       },
       {
         "id": 53,
         "code": "C57",
         "name": "C57: Other and Unspecified Female Genital Organs",
         "color": "#ffffff",
-        "comment": "Other and Unspecified Female Genital Organs"
+        "comment": "Other and Unspecified Female Genital Organs",
+        "concept": "https://data.jrc.ec.europa.eu/collection/ICDO3_O#C57",
+        "ontology": "https://bioportal.bioontology.org/ontologies/ICD-O-3/?p=classes&conceptid=https%3A%2F%2Fdata.jrc.ec.europa.eu%2Fcollection%2FICDO3_O%23C57"
       },
       {
         "id": 54,
         "code": "C58",
         "name": "C58: Placenta",
         "color": "#ffffff",
-        "comment": "Placenta"
+        "comment": "Placenta",
+        "concept": "https://data.jrc.ec.europa.eu/collection/ICDO3_O#C58",
+        "ontology": "https://bioportal.bioontology.org/ontologies/ICD-O-3/?p=classes&conceptid=https%3A%2F%2Fdata.jrc.ec.europa.eu%2Fcollection%2FICDO3_O%23C58"
       },
       {
         "id": 55,
         "code": "C60",
         "name": "C60: Penis",
         "color": "#ffffff",
-        "comment": "Penis"
+        "comment": "Penis",
+        "concept": "https://data.jrc.ec.europa.eu/collection/ICDO3_O#C60",
+        "ontology": "https://bioportal.bioontology.org/ontologies/ICD-O-3/?p=classes&conceptid=https%3A%2F%2Fdata.jrc.ec.europa.eu%2Fcollection%2FICDO3_O%23C60"
       },
       {
         "id": 56,
         "code": "C61",
         "name": "C61: Prostate Gland",
         "color": "#ffffff",
-        "comment": "Prostate Gland"
+        "comment": "Prostate Gland",
+        "concept": "https://data.jrc.ec.europa.eu/collection/ICDO3_O#C61",
+        "ontology": "https://bioportal.bioontology.org/ontologies/ICD-O-3/?p=classes&conceptid=https%3A%2F%2Fdata.jrc.ec.europa.eu%2Fcollection%2FICDO3_O%23C61"
       },
       {
         "id": 57,
         "code": "C62",
         "name": "C62: Testis",
         "color": "#ffffff",
-        "comment": "Testis"
+        "comment": "Testis",
+        "concept": "https://data.jrc.ec.europa.eu/collection/ICDO3_O#C62",
+        "ontology": "https://bioportal.bioontology.org/ontologies/ICD-O-3/?p=classes&conceptid=https%3A%2F%2Fdata.jrc.ec.europa.eu%2Fcollection%2FICDO3_O%23C62"
       },
       {
         "id": 58,
         "code": "C63",
         "name": "C63: Other and Unspecified Male Genital Organs",
         "color": "#ffffff",
-        "comment": "Other and Unspecified Male Genital Organs"
+        "comment": "Other and Unspecified Male Genital Organs",
+        "concept": "https://data.jrc.ec.europa.eu/collection/ICDO3_O#C63",
+        "ontology": "https://bioportal.bioontology.org/ontologies/ICD-O-3/?p=classes&conceptid=https%3A%2F%2Fdata.jrc.ec.europa.eu%2Fcollection%2FICDO3_O%23C63"
       },
       {
         "id": 59,
         "code": "C64",
         "name": "C64: Kidney",
         "color": "#ffffff",
-        "comment": "Kidney"
+        "comment": "Kidney",
+        "concept": "https://data.jrc.ec.europa.eu/collection/ICDO3_O#C64",
+        "ontology": "https://bioportal.bioontology.org/ontologies/ICD-O-3/?p=classes&conceptid=https%3A%2F%2Fdata.jrc.ec.europa.eu%2Fcollection%2FICDO3_O%23C64"
       },
       {
         "id": 60,
         "code": "C65",
         "name": "C65: Renal Pelvis",
         "color": "#ffffff",
-        "comment": "Renal Pelvis"
+        "comment": "Renal Pelvis",
+        "concept": "https://data.jrc.ec.europa.eu/collection/ICDO3_O#C65",
+        "ontology": "https://bioportal.bioontology.org/ontologies/ICD-O-3/?p=classes&conceptid=https%3A%2F%2Fdata.jrc.ec.europa.eu%2Fcollection%2FICDO3_O%23C65"
       },
       {
         "id": 61,
         "code": "C66",
         "name": "C66: Ureter",
         "color": "#ffffff",
-        "comment": "Ureter"
+        "comment": "Ureter",
+        "concept": "https://data.jrc.ec.europa.eu/collection/ICDO3_O#C66",
+        "ontology": "https://bioportal.bioontology.org/ontologies/ICD-O-3/?p=classes&conceptid=https%3A%2F%2Fdata.jrc.ec.europa.eu%2Fcollection%2FICDO3_O%23C66"
       },
       {
         "id": 62,
         "code": "C67",
         "name": "C67: Bladder",
         "color": "#ffffff",
-        "comment": "Bladder"
+        "comment": "Bladder",
+        "concept": "https://data.jrc.ec.europa.eu/collection/ICDO3_O#C67",
+        "ontology": "https://bioportal.bioontology.org/ontologies/ICD-O-3/?p=classes&conceptid=https%3A%2F%2Fdata.jrc.ec.europa.eu%2Fcollection%2FICDO3_O%23C67"
       },
       {
         "id": 63,
         "code": "C68",
         "name": "C68: Other and Unspecified Urinary Organs",
         "color": "#ffffff",
-        "comment": "Other and Unspecified Urinary Organs"
+        "comment": "Other and Unspecified Urinary Organs",
+        "concept": "https://data.jrc.ec.europa.eu/collection/ICDO3_O#C68",
+        "ontology": "https://bioportal.bioontology.org/ontologies/ICD-O-3/?p=classes&conceptid=https%3A%2F%2Fdata.jrc.ec.europa.eu%2Fcollection%2FICDO3_O%23C68"
       },
       {
         "id": 64,
         "code": "C69",
         "name": "C69: Eye and Adnexa",
         "color": "#ffffff",
-        "comment": "Eye and Adnexa"
+        "comment": "Eye and Adnexa",
+        "concept": "https://data.jrc.ec.europa.eu/collection/ICDO3_O#C69",
+        "ontology": "https://bioportal.bioontology.org/ontologies/ICD-O-3/?p=classes&conceptid=https%3A%2F%2Fdata.jrc.ec.europa.eu%2Fcollection%2FICDO3_O%23C69"
       },
       {
         "id": 65,
         "code": "C70",
         "name": "C70: Meninges",
         "color": "#ffffff",
-        "comment": "Meninges"
+        "comment": "Meninges",
+        "concept": "https://data.jrc.ec.europa.eu/collection/ICDO3_O#C70",
+        "ontology": "https://bioportal.bioontology.org/ontologies/ICD-O-3/?p=classes&conceptid=https%3A%2F%2Fdata.jrc.ec.europa.eu%2Fcollection%2FICDO3_O%23C70"
       },
       {
         "id": 66,
         "code": "C71",
         "name": "C71: Brain",
         "color": "#ffffff",
-        "comment": "Brain"
+        "comment": "Brain",
+        "concept": "https://data.jrc.ec.europa.eu/collection/ICDO3_O#C71",
+        "ontology": "https://bioportal.bioontology.org/ontologies/ICD-O-3/?p=classes&conceptid=https%3A%2F%2Fdata.jrc.ec.europa.eu%2Fcollection%2FICDO3_O%23C71"
       },
       {
         "id": 67,
         "code": "C72",
         "name": "C72: Spinal Cord, Cranial Nerves, and Other Parts of Central Nervous System",
         "color": "#ffffff",
-        "comment": "Spinal Cord, Cranial Nerves, and Other Parts of Central Nervous System"
+        "comment": "Spinal Cord, Cranial Nerves, and Other Parts of Central Nervous System",
+        "concept": "https://data.jrc.ec.europa.eu/collection/ICDO3_O#C72",
+        "ontology": "https://bioportal.bioontology.org/ontologies/ICD-O-3/?p=classes&conceptid=https%3A%2F%2Fdata.jrc.ec.europa.eu%2Fcollection%2FICDO3_O%23C72"
       },
       {
         "id": 68,
         "code": "C73",
         "name": "C73: Thyroid Gland",
         "color": "#ffffff",
-        "comment": "Thyroid Gland"
+        "comment": "Thyroid Gland",
+        "concept": "https://data.jrc.ec.europa.eu/collection/ICDO3_O#C73",
+        "ontology": "https://bioportal.bioontology.org/ontologies/ICD-O-3/?p=classes&conceptid=https%3A%2F%2Fdata.jrc.ec.europa.eu%2Fcollection%2FICDO3_O%23C73"
       },
       {
         "id": 69,
         "code": "C74",
         "name": "C74: Adrenal Gland",
         "color": "#ffffff",
-        "comment": "Adrenal Gland"
+        "comment": "Adrenal Gland",
+        "concept": "https://data.jrc.ec.europa.eu/collection/ICDO3_O#C74",
+        "ontology": "https://bioportal.bioontology.org/ontologies/ICD-O-3/?p=classes&conceptid=https%3A%2F%2Fdata.jrc.ec.europa.eu%2Fcollection%2FICDO3_O%23C74"
       },
       {
         "id": 70,
         "code": "C75",
         "name": "C75: Other Endocrine Glands and Related Structures",
         "color": "#ffffff",
-        "comment": "Other Endocrine Glands and Related Structures"
+        "comment": "Other Endocrine Glands and Related Structures",
+        "concept": "https://data.jrc.ec.europa.eu/collection/ICDO3_O#C75",
+        "ontology": "https://bioportal.bioontology.org/ontologies/ICD-O-3/?p=classes&conceptid=https%3A%2F%2Fdata.jrc.ec.europa.eu%2Fcollection%2FICDO3_O%23C75"
       },
       {
         "id": 71,
         "code": "C76",
         "name": "C76: Other and Ill-Defined Sites",
         "color": "#ffffff",
-        "comment": "Other and Ill-Defined Sites"
+        "comment": "Other and Ill-Defined Sites",
+        "concept": "https://data.jrc.ec.europa.eu/collection/ICDO3_O#C76",
+        "ontology": "https://bioportal.bioontology.org/ontologies/ICD-O-3/?p=classes&conceptid=https%3A%2F%2Fdata.jrc.ec.europa.eu%2Fcollection%2FICDO3_O%23C76"
       },
       {
         "id": 72,
         "code": "C77",
         "name": "C77: Lymph Nodes",
         "color": "#ffffff",
-        "comment": "Lymph Nodes"
+        "comment": "Lymph Nodes",
+        "concept": "https://data.jrc.ec.europa.eu/collection/ICDO3_O#C77",
+        "ontology": "https://bioportal.bioontology.org/ontologies/ICD-O-3/?p=classes&conceptid=https%3A%2F%2Fdata.jrc.ec.europa.eu%2Fcollection%2FICDO3_O%23C77"
       },
       {
         "id": 73,
         "code": "C80",
         "name": "C80: Malignant Neoplasm without Specification of Site",
         "color": "#ffffff",
-        "comment": "Malignant Neoplasm without Specification of Site"
+        "comment": "Malignant Neoplasm without Specification of Site",
+        "concept": "https://data.jrc.ec.europa.eu/collection/ICDO3_O#C80",
+        "ontology": "https://bioportal.bioontology.org/ontologies/ICD-O-3/?p=classes&conceptid=https%3A%2F%2Fdata.jrc.ec.europa.eu%2Fcollection%2FICDO3_O%23C80"
       }
     ]
   },
@@ -531,36 +679,46 @@
         "id": 0,
         "code": "NI",
         "name": "No Semantics",
-        "color": "#ffffff",
-        "comment": "No further semantics is given, why the information is missing"
+        "color": "#f2bbce",
+        "comment": "No further semantics is given, why the information is missing",
+        "concept": "",
+        "ontology": ""
       },
       {
         "id": 1,
         "code": "UNC",
         "name": "Not Encoded",
-        "color": "#f3f3f3",
-        "comment": "The actual value has not yet been encoded within the approved value domain. "
+        "color": "#52c7bb",
+        "comment": "The actual value has not yet been encoded within the approved value domain. ",
+        "concept": "",
+        "ontology": ""
       },
       {
         "id": 2,
         "code": "UNK",
         "name": "Unknown",
-        "color": "#d9d9d9",
-        "comment": "A proper value is applicable, but not known. This is typically the case, if there are artefacts (tissue folds or overlap, etc.) which do not allow a classification"
+        "color": "#5352aa",
+        "comment": "A proper value is applicable, but not known. This is typically the case, if there are artefacts (tissue folds or overlap, etc.) which do not allow a classification",
+        "concept": "",
+        "ontology": ""
       },
       {
         "id": 3,
         "code": "NV",
         "name": "No proper Value",
-        "color": "#d9d9d9",
-        "comment": "Known to have no proper value, this will be the most common null value e.g. when there is no tissue."
+        "color": "#f1ea1d",
+        "comment": "Known to have no proper value, this will be the most common null value e.g. when there is no tissue.",
+        "concept": "",
+        "ontology": ""
       },
       {
         "id": 4,
         "code": "EPITHELIUM",
         "name": "Epithelial tissue",
-        "color": "#93c47d",
-        "comment": "This tissue covers the entire body and all internal hollow organs. It serves as a protective layer and is also involved in the secretion and absorption processes."
+        "color": "#6d3acd",
+        "comment": "This tissue covers the entire body and all internal hollow organs. It serves as a protective layer and is also involved in the secretion and absorption processes.",
+        "concept": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C12710",
+        "ontology": "https://bioportal.bioontology.org/ontologies/NCIT/?p=classes&conceptid=http%3A%2F%2Fncicb.nci.nih.gov%2Fxml%2Fowl%2FEVS%2FThesaurus.owl%23C12710"
       },
       {
         "id": 5,
@@ -568,6 +726,8 @@
         "name": "Muscle tissue",
         "color": "#b45f06",
         "comment": "This tissue allows movement and is divided into three main types",
+        "concept": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C12435",
+        "ontology": "https://bioportal.bioontology.org/ontologies/NCIT/?p=classes&conceptid=http%3A%2F%2Fncicb.nci.nih.gov%2Fxml%2Fowl%2FEVS%2FThesaurus.owl%23C12435",
         "children": [
           {
             "id": 6,
@@ -575,7 +735,9 @@
             "name": "Muscle Skeletal",
             "color": "#e69138",
             "comment": "Skeletal muscle tissue: Allows voluntary movement and support",
-            "parent": 5
+            "parent": 5,
+            "concept": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C13050",
+            "ontology": "https://bioportal.bioontology.org/ontologies/NCIT/?p=classes&conceptid=http%3A%2F%2Fncicb.nci.nih.gov%2Fxml%2Fowl%2FEVS%2FThesaurus.owl%23C13050"
           },
           {
             "id": 7,
@@ -583,7 +745,9 @@
             "name": "Muscle Smooth",
             "color": "#f1c232",
             "comment": "Provides involuntary movement of internal organs such as the stomach or intestines",
-            "parent": 5
+            "parent": 5,
+            "concept": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C12437",
+            "ontology": "https://bioportal.bioontology.org/ontologies/NCIT/?p=classes&conceptid=http%3A%2F%2Fncicb.nci.nih.gov%2Fxml%2Fowl%2FEVS%2FThesaurus.owl%23C12437"
           },
           {
             "id": 8,
@@ -591,7 +755,9 @@
             "name": "Muscle Cardiac",
             "color": "#e6b8af",
             "comment": "Cardiac muscle tissue (cardiomyocytes): Responsible for the contraction of the heart",
-            "parent": 5
+            "parent": 5,
+            "concept": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C133337",
+            "ontology": "https://bioportal.bioontology.org/ontologies/NCIT/?p=classes&conceptid=http%3A%2F%2Fncicb.nci.nih.gov%2Fxml%2Fowl%2FEVS%2FThesaurus.owl%23C133337"
           }
         ]
       },
@@ -599,23 +765,29 @@
         "id": 9,
         "code": "NERVE",
         "name": "Nervous tissue",
-        "color": "#ffff00",
-        "comment": " This tissue consists of neurons and glial cells that transmit and process information to coordinate all the body's functions."
+        "color": "#98b270",
+        "comment": " This tissue consists of neurons and glial cells that transmit and process information to coordinate all the body's functions.",
+        "concept": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C13052",
+        "ontology": "https://bioportal.bioontology.org/ontologies/NCIT/?p=classes&conceptid=http%3A%2F%2Fncicb.nci.nih.gov%2Fxml%2Fowl%2FEVS%2FThesaurus.owl%23C13052"
       },
       {
         "id": 10,
         "code": "CONNECTIVE-TISSUE",
         "name": "Conective Tissue",
-        "color": "#1155cc",
+        "color": "#afbf9b",
         "comment": "Connective tissue: This very diverse tissue provides structure and support for other tissues and organs",
+        "concept": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C12374",
+        "ontology": "https://bioportal.bioontology.org/ontologies/NCIT/?p=classes&conceptid=http%3A%2F%2Fncicb.nci.nih.gov%2Fxml%2Fowl%2FEVS%2FThesaurus.owl%23C32369",
         "children": [
           {
             "id": 11,
             "code": "CONNECTIVE-TISSUE-LOOSE",
             "name": "Conective Tissue Loose",
-            "color": "#3c78d8",
+            "color": "#e0bc3b",
             "comment": "Loose connective tissue: Fills spaces between organs and supports epithelium and many internal organs",
-            "parent": 10
+            "parent": 10,
+            "concept": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C33007",
+            "ontology": "https://bioportal.bioontology.org/ontologies/NCIT/?p=classes&conceptid=http%3A%2F%2Fncicb.nci.nih.gov%2Fxml%2Fowl%2FEVS%2FThesaurus.owl%23C33007"
           },
           {
             "id": 12,
@@ -623,39 +795,49 @@
             "name": "Conective Tissue Dense",
             "color": "#0000ff",
             "comment": "Dense connective tissue: Contains tendons and ligaments",
-            "parent": 10
+            "parent": 10,
+            "concept": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C32450",
+            "ontology": "https://bioportal.bioontology.org/ontologies/NCIT/?p=classes&conceptid=http%3A%2F%2Fncicb.nci.nih.gov%2Fxml%2Fowl%2FEVS%2FThesaurus.owl%23C32450"
           },
           {
             "id": 13,
             "code": "CONNECTIVE-TISSUE-FAT",
             "name": "Conective Tissue Fat",
-            "color": "#cfe2f3",
+            "color": "#64549d",
             "comment": "Fatty tissue: Stores energy and serves as padding",
-            "parent": 10
+            "parent": 10,
+            "concept": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C12472",
+            "ontology": "https://bioportal.bioontology.org/ontologies/NCIT/?p=classes&conceptid=http%3A%2F%2Fncicb.nci.nih.gov%2Fxml%2Fowl%2FEVS%2FThesaurus.owl%23C12472"
           },
           {
             "id": 14,
             "code": "CONNECTIVE-TISSUE-LYMPHATIC",
             "name": "Conective Tissue Lymphatic",
-            "color": "#a2c4c9",
+            "color": "#dac593",
             "comment": "Transports nutrients and waste products",
-            "parent": 10
+            "parent": 10,
+            "concept": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C33034",
+            "ontology": "https://bioportal.bioontology.org/ontologies/NCIT/?p=classes&conceptid=http%3A%2F%2Fncicb.nci.nih.gov%2Fxml%2Fowl%2FEVS%2FThesaurus.owl%23C33034"
           },
           {
             "id": 15,
             "code": "CONNECTIVE-TISSUE-BLOOD",
             "name": "Conective Tissue Blood",
-            "color": "#9900ff",
+            "color": "#53e025",
             "comment": "Transports nutrients and waste products",
-            "parent": 10
+            "parent": 10,
+            "concept": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C32213",
+            "ontology": "https://bioportal.bioontology.org/ontologies/NCIT/?p=classes&conceptid=http%3A%2F%2Fncicb.nci.nih.gov%2Fxml%2Fowl%2FEVS%2FThesaurus.owl%23C32213"
           },
           {
             "id": 16,
             "code": "CONNECTIVE-TISSUE-CARTILAGE",
             "name": "Conective Tissue Cartilage",
-            "color": "#1c4587",
+            "color": "#b19081",
             "comment": "Provides structural components for many organs (e.g. nose, ears, joints)",
-            "parent": 10
+            "parent": 10,
+            "concept": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C32268",
+            "ontology": "https://bioportal.bioontology.org/ontologies/NCIT/?p=classes&conceptid=http%3A%2F%2Fncicb.nci.nih.gov%2Fxml%2Fowl%2FEVS%2FThesaurus.owl%23C32268"
           }
         ]
       }
@@ -669,29 +851,37 @@
         "id": 0,
         "code": "NI",
         "name": "No Semantics",
-        "color": "#ffffff",
-        "comment": "No further semantics is given, why the information is missing"
+        "color": "#f2bbce",
+        "comment": "No further semantics is given, why the information is missing",
+        "concept": "",
+        "ontology": ""
       },
       {
         "id": 1,
         "code": "UNC",
         "name": "Not Encoded",
-        "color": "#f3f3f3",
-        "comment": "The actual value has not yet been encoded within the approved value domain. "
+        "color": "#52c7bb",
+        "comment": "The actual value has not yet been encoded within the approved value domain. ",
+        "concept": "",
+        "ontology": ""
       },
       {
         "id": 2,
         "code": "UNK",
         "name": "Unknown",
-        "color": "#d9d9d9",
-        "comment": "A proper value is applicable, but not known. This is typically the case, if there are artefacts (air bubbles), etc which do not allow a classification"
+        "color": "#5352aa",
+        "comment": "A proper value is applicable, but not known. This is typically the case, if there are artefacts (air bubbles), etc which do not allow a classification",
+        "concept": "",
+        "ontology": ""
       },
       {
         "id": 3,
         "code": "NV",
         "name": "No proper Value",
-        "color": "#d9d9d9",
-        "comment": "Known to have no proper value, this will be the most common null value e.g. when there is normal tissue"
+        "color": "#f1ea1d",
+        "comment": "Known to have no proper value, this will be the most common null value e.g. when there is normal tissue",
+        "concept": "",
+        "ontology": ""
       },
       {
         "id": 4,
@@ -699,6 +889,8 @@
         "name": "Inflammation",
         "color": "#e06666",
         "comment": "",
+        "concept": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C3137",
+        "ontology": "https://bioportal.bioontology.org/ontologies/NCIT/?p=classes&conceptid=http%3A%2F%2Fncicb.nci.nih.gov%2Fxml%2Fowl%2FEVS%2FThesaurus.owl%23C3137",
         "children": [
           {
             "id": 5,
@@ -706,15 +898,19 @@
             "name": "Inflammation Acute",
             "color": "#ea9999",
             "comment": "",
-            "parent": 4
+            "parent": 4,
+            "concept": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C82967",
+            "ontology": "https://bioportal.bioontology.org/ontologies/NCIT?p=classes&conceptid=http%3A%2F%2Fncicb.nci.nih.gov%2Fxml%2Fowl%2FEVS%2FThesaurus.owl%23C82967"
           },
           {
             "id": 6,
             "code": "INFLAMMATION-CHRONIC",
             "name": "Inflammation Chronic",
-            "color": "#cc0000",
+            "color": "#d14f32",
             "comment": "",
-            "parent": 4
+            "parent": 4,
+            "concept": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C174450",
+            "ontology": "https://bioportal.bioontology.org/ontologies/NCIT/?p=classes&conceptid=http%3A%2F%2Fncicb.nci.nih.gov%2Fxml%2Fowl%2FEVS%2FThesaurus.owl%23C174450"
           }
         ]
       },
@@ -723,14 +919,18 @@
         "code": "NECROSIS",
         "name": "Necrosis",
         "color": "#666666",
-        "comment": ""
+        "comment": "",
+        "concept": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C25286",
+        "ontology": "https://bioportal.bioontology.org/ontologies/NCIT/?p=classes&conceptid=http%3A%2F%2Fncicb.nci.nih.gov%2Fxml%2Fowl%2FEVS%2FThesaurus.owl%23C25286"
       },
       {
         "id": 8,
         "code": "NEOPLASTIC",
         "name": "Neoplastic",
-        "color": "#4a86e8",
+        "color": "#5543e8",
         "comment": "",
+        "concept": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C45315",
+        "ontology": "https://bioportal.bioontology.org/ontologies/NCIT/?p=classes&conceptid=http%3A%2F%2Fncicb.nci.nih.gov%2Fxml%2Fowl%2FEVS%2FThesaurus.owl%23C45315",
         "children": [
           {
             "id": 9,
@@ -738,15 +938,19 @@
             "name": "Neoplastic Benign",
             "color": "#3c78d8",
             "comment": "",
-            "parent": 8
+            "parent": 8,
+            "concept": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C14172",
+            "ontology": "https://bioportal.bioontology.org/ontologies/NCIT/?p=classes&conceptid=http%3A%2F%2Fncicb.nci.nih.gov%2Fxml%2Fowl%2FEVS%2FThesaurus.owl%23C14172"
           },
           {
             "id": 10,
             "code": "NEOPLASTIC-MALIGNANT",
             "name": "Neoplastic Malignant",
-            "color": "#1155cc",
+            "color": "#568361",
             "comment": "",
-            "parent": 8
+            "parent": 8,
+            "concept": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C14143",
+            "ontology": "https://bioportal.bioontology.org/ontologies/NCIT/?p=classes&conceptid=http%3A%2F%2Fncicb.nci.nih.gov%2Fxml%2Fowl%2FEVS%2FThesaurus.owl%23C14143"
           },
           {
             "id": 11,
@@ -754,7 +958,9 @@
             "name": "Neoplastic Metastatic",
             "color": "#674ea7",
             "comment": "",
-            "parent": 8
+            "parent": 8,
+            "concept": "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C14174",
+            "ontology": "https://bioportal.bioontology.org/ontologies/NCIT/?p=classes&conceptid=http%3A%2F%2Fncicb.nci.nih.gov%2Fxml%2Fowl%2FEVS%2FThesaurus.owl%23C14174"
           }
         ]
       }

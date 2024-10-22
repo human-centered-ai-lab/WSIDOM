@@ -1,13 +1,13 @@
-ID,PARENT,CODE,DEF COLOUR,COLOR,NAME,COMMENT,ONTOLOGY
-0,-1,NI,,#ffffff,No Semantics,"No further semantics is given, why the information is missing",
-1,-1,UNC,,#f3f3f3,Not Encoded,The actual value has not yet been encoded within the approved value domain. ,
-2,-1,UNK,,#d9d9d9,Unknown,"A proper value is applicable, but not known. This is typically the case, if there are artefacts (air bubbles), etc which do not allow a classification",
-3,-1,NV,,#d9d9d9,No proper Value,"Known to have no proper value, this will be the most common null value e.g. when there is normal tissue",
-4,-1,INFLAMMATION,,#e06666,Inflammation,,
-5,4,INFLAMMATION-ACUTE,,#ea9999,Inflammation Acute,,
-6,4,INFLAMMATION-CHRONIC,,#cc0000,Inflammation Chronic,,
-7,-1,NECROSIS,,#666666,Necrosis,,
-8,-1,NEOPLASTIC,,#4a86e8,Neoplastic,,
-9,8,NEOPLASTIC-BENIGN,,#3c78d8,Neoplastic Benign,,
-10,8,NEOPLASTIC-MALIGNANT,,#1155cc,Neoplastic Malignant,,
-11,8,NEOPLASTIC-METASTATIC,,#674ea7,Neoplastic Metastatic,,
+ID,PARENT,CODE,DEF COLOR,COLOR,NAME,COMMENT,ONTOLOGY,CONCEPT
+0,-1,NI,#ffffff,#f2bbce,No Semantics,"No further semantics is given, why the information is missing",,
+1,-1,UNC,#f3f3f3,#52c7bb,Not Encoded,The actual value has not yet been encoded within the approved value domain. ,,
+2,-1,UNK,#d9d9d9,#5352aa,Unknown,"A proper value is applicable, but not known. This is typically the case, if there are artefacts (air bubbles), etc which do not allow a classification",,
+3,-1,NV,#d9d9d9,#f1ea1d,No proper Value,"Known to have no proper value, this will be the most common null value e.g. when there is normal tissue",,
+4,-1,INFLAMMATION,#e06666,#e06666,Inflammation,,https://bioportal.bioontology.org/ontologies/NCIT/?p=classes&conceptid=http%3A%2F%2Fncicb.nci.nih.gov%2Fxml%2Fowl%2FEVS%2FThesaurus.owl%23C3137,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C3137
+5,4,INFLAMMATION-ACUTE,#ea9999,#ea9999,Inflammation Acute,,https://bioportal.bioontology.org/ontologies/NCIT?p=classes&conceptid=http%3A%2F%2Fncicb.nci.nih.gov%2Fxml%2Fowl%2FEVS%2FThesaurus.owl%23C82967,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C82967
+6,4,INFLAMMATION-CHRONIC,#cc0000,#d14f32,Inflammation Chronic,,https://bioportal.bioontology.org/ontologies/NCIT/?p=classes&conceptid=http%3A%2F%2Fncicb.nci.nih.gov%2Fxml%2Fowl%2FEVS%2FThesaurus.owl%23C174450,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C174450
+7,-1,NECROSIS,#666666,#666666,Necrosis,,https://bioportal.bioontology.org/ontologies/NCIT/?p=classes&conceptid=http%3A%2F%2Fncicb.nci.nih.gov%2Fxml%2Fowl%2FEVS%2FThesaurus.owl%23C25286,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C25286
+8,-1,NEOPLASTIC,#4a86e8,#5543e8,Neoplastic,,https://bioportal.bioontology.org/ontologies/NCIT/?p=classes&conceptid=http%3A%2F%2Fncicb.nci.nih.gov%2Fxml%2Fowl%2FEVS%2FThesaurus.owl%23C45315,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C45315
+9,8,NEOPLASTIC-BENIGN,#3c78d8,#3c78d8,Neoplastic Benign,,https://bioportal.bioontology.org/ontologies/NCIT/?p=classes&conceptid=http%3A%2F%2Fncicb.nci.nih.gov%2Fxml%2Fowl%2FEVS%2FThesaurus.owl%23C14172,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C14172
+10,8,NEOPLASTIC-MALIGNANT,#1155cc,#568361,Neoplastic Malignant,,https://bioportal.bioontology.org/ontologies/NCIT/?p=classes&conceptid=http%3A%2F%2Fncicb.nci.nih.gov%2Fxml%2Fowl%2FEVS%2FThesaurus.owl%23C14143,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C14143
+11,8,NEOPLASTIC-METASTATIC,#674ea7,#674ea7,Neoplastic Metastatic,,https://bioportal.bioontology.org/ontologies/NCIT/?p=classes&conceptid=http%3A%2F%2Fncicb.nci.nih.gov%2Fxml%2Fowl%2FEVS%2FThesaurus.owl%23C14174,http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C14174

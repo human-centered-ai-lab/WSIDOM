@@ -1,75 +1,75 @@
-ID,PARENT,CODE,DEF COLOUR,NAME,COMMENT,ONTOLOGY,COLOR
-0,-1,NI,,No Semantics,"No further semantics is given, why the information is missing",,#ffffff
-1,-1,UNC,,Not Encoded,The actual value has not yet been encoded within the approved value domain. ,,#f3f3f3
-2,-1,UNK,,Unknown,"A proper value is applicable, but not known. This is typically the case, if there are artefacts (air bubbles), etc which do not allow a classification",,#d9d9d9
-3,-1,NV,,No proper Value,"Known to have no proper value, this will be the most common null value e.g. when there is no tissue. ",,#d9d9d9
-4,-1,C00,,C00: Lip,Lip,,#ffffff
-5,-1,C01,,C01: Base of Tongue,Base of Tongue,,#ffffff
-6,-1,C02,,C02: Other and Unspecified Parts of Tongue,Other and Unspecified Parts of Tongue,,#ffffff
-7,-1,C03,,C03: Gum,Gum,,#ffffff
-8,-1,C04,,C04: Floor of Mouth,Floor of Mouth,,#ffffff
-9,-1,C05,,C05: Palate,Palate,,#ffffff
-10,-1,C06,,C06: Other and Unspecified Parts of Mouth,Other and Unspecified Parts of Mouth,,#ffffff
-11,-1,C07,,C07: Parotid Gland,Parotid Gland,,#ffffff
-12,-1,C08,,C08: Other and Unspecified Major Salivary Glands,Other and Unspecified Major Salivary Glands,,#ffffff
-13,-1,C09,,C09: Tonsil,Tonsil,,#ffffff
-14,-1,C10,,C10: Oropharynx,Oropharynx,,#ffffff
-15,-1,C11,,C11: Nasopharynx,Nasopharynx,,#ffffff
-16,-1,C12,,C12: Pyriform Sinus,Pyriform Sinus,,#ffffff
-17,-1,C13,,C13: Hypopharynx,Hypopharynx,,#ffffff
-18,-1,C14,,"C14: Other and Ill-Defined Sites in the Lip, Oral Cavity, and Pharynx","Other and Ill-Defined Sites in the Lip, Oral Cavity, and Pharynx",,#ffffff
-19,-1,C15,,C15: Oesophagus,Oesophagus,,#ffffff
-20,-1,C16,,C16: Stomach,Stomach,,#ffffff
-21,-1,C17,,C17: Small Intestine,Small Intestine,,#ffffff
-22,-1,C18,,C18: Colon,Colon,,#ffffff
-23,-1,C19,,C19: Rectosigmoid Junction,Rectosigmoid Junction,,#ffffff
-24,-1,C20,,C20: Rectum,Rectum,,#ffffff
-25,-1,C21,,C21: Anus and Anal Canal,Anus and Anal Canal,,#ffffff
-26,-1,C22,,C22: Liver and Intrahepatic Bile Ducts,Liver and Intrahepatic Bile Ducts,,#ffffff
-27,-1,C23,,C23: Gallbladder,Gallbladder,,#ffffff
-28,-1,C24,,C24: Other and Unspecified Parts of Biliary Tract,Other and Unspecified Parts of Biliary Tract,,#ffffff
-29,-1,C25,,C25: Pancreas,Pancreas,,#ffffff
-30,-1,C26,,C26: Other and Ill-Defined Digestive Organs,Other and Ill-Defined Digestive Organs,,#ffffff
-31,-1,C30,,C30: Nasal Cavity and Middle Ear,Nasal Cavity and Middle Ear,,#ffffff
-32,-1,C31,,C31: Accessory Sinuses,Accessory Sinuses,,#ffffff
-33,-1,C32,,C32: Larynx,Larynx,,#ffffff
-34,-1,C33,,C33: Trachea,Trachea,,#ffffff
-35,-1,C34,,C34: Bronchus and Lung,Bronchus and Lung,,#ffffff
-36,-1,C37,,C37: Thymus,Thymus,,#ffffff
-37,-1,C38,,"C38: Heart, Mediastinum, and Pleura","Heart, Mediastinum, and Pleura",,#ffffff
-38,-1,C39,,C39: Other and Ill-Defined Sites in the Respiratory System and Intrathoracic Organs,Other and Ill-Defined Sites in the Respiratory System and Intrathoracic Organs,,#ffffff
-39,-1,C40,,C40: Bone and Articular Cartilage of Limbs,Bone and Articular Cartilage of Limbs,,#ffffff
-40,-1,C41,,C41: Bone and Articular Cartilage of Other and Unspecified Sites,Bone and Articular Cartilage of Other and Unspecified Sites,,#ffffff
-41,-1,C42,,C42: Hematopoietic and Reticuloendothelial Systems,Hematopoietic and Reticuloendothelial Systems,,#ffffff
-42,-1,C44,,C44: Skin,Skin,,#ffffff
-43,-1,C47,,C47: Peripheral Nerves and Autonomic Nervous System,Peripheral Nerves and Autonomic Nervous System,,#ffffff
-44,-1,C48,,C48: Retroperitoneum and Peritoneum,Retroperitoneum and Peritoneum,,#ffffff
-45,-1,C49,,"C49: Connective, Subcutaneous and other Soft Tissues ","Connective, Subcutaneous and other Soft Tissues ",,#ffffff
-46,-1,C50,,C50: Breast,Breast,,#ffffff
-47,-1,C51,,C51: Vulva,Vulva,,#ffffff
-48,-1,C52,,C52: Vagina,Vagina,,#ffffff
-49,-1,C53,,C53: Cervix Uteri,Cervix Uteri,,#ffffff
-50,-1,C54,,C54: Corpus Uteri,Corpus Uteri,,#ffffff
-51,-1,C55,,"C55: Uterus, Part Unspecified","Uterus, Part Unspecified",,#ffffff
-52,-1,C56,,C56: Ovary,Ovary,,#ffffff
-53,-1,C57,,C57: Other and Unspecified Female Genital Organs,Other and Unspecified Female Genital Organs,,#ffffff
-54,-1,C58,,C58: Placenta,Placenta,,#ffffff
-55,-1,C60,,C60: Penis,Penis,,#ffffff
-56,-1,C61,,C61: Prostate Gland,Prostate Gland,,#ffffff
-57,-1,C62,,C62: Testis,Testis,,#ffffff
-58,-1,C63,,C63: Other and Unspecified Male Genital Organs,Other and Unspecified Male Genital Organs,,#ffffff
-59,-1,C64,,C64: Kidney,Kidney,,#ffffff
-60,-1,C65,,C65: Renal Pelvis,Renal Pelvis,,#ffffff
-61,-1,C66,,C66: Ureter,Ureter,,#ffffff
-62,-1,C67,,C67: Bladder,Bladder,,#ffffff
-63,-1,C68,,C68: Other and Unspecified Urinary Organs,Other and Unspecified Urinary Organs,,#ffffff
-64,-1,C69,,C69: Eye and Adnexa,Eye and Adnexa,,#ffffff
-65,-1,C70,,C70: Meninges,Meninges,,#ffffff
-66,-1,C71,,C71: Brain,Brain,,#ffffff
-67,-1,C72,,"C72: Spinal Cord, Cranial Nerves, and Other Parts of Central Nervous System","Spinal Cord, Cranial Nerves, and Other Parts of Central Nervous System",,#ffffff
-68,-1,C73,,C73: Thyroid Gland,Thyroid Gland,,#ffffff
-69,-1,C74,,C74: Adrenal Gland,Adrenal Gland,,#ffffff
-70,-1,C75,,C75: Other Endocrine Glands and Related Structures,Other Endocrine Glands and Related Structures,,#ffffff
-71,-1,C76,,C76: Other and Ill-Defined Sites,Other and Ill-Defined Sites,,#ffffff
-72,-1,C77,,C77: Lymph Nodes,Lymph Nodes,,#ffffff
-73,-1,C80,,C80: Malignant Neoplasm without Specification of Site,Malignant Neoplasm without Specification of Site,,#ffffff
+ID,PARENT,CODE,DEF COLOR,COLOR,NAME,COMMENT,ONTOLOGY,CONCEPT
+0,-1,NI,,#f2bbce,No Semantics,"No further semantics is given, why the information is missing",,
+1,-1,UNC,,#52c7bb,Not Encoded,The actual value has not yet been encoded within the approved value domain. ,,
+2,-1,UNK,,#5352aa,Unknown,"A proper value is applicable, but not known. This is typically the case, if there are artefacts (air bubbles), etc which do not allow a classification",,
+3,-1,NV,,#f1ea1d,No proper Value,"Known to have no proper value, this will be the most common null value e.g. when there is no tissue. ",,
+4,-1,C00,,#ffffff,C00: Lip,Lip,https://bioportal.bioontology.org/ontologies/ICD-O-3/?p=classes&conceptid=https%3A%2F%2Fdata.jrc.ec.europa.eu%2Fcollection%2FICDO3_O%23C00,https://data.jrc.ec.europa.eu/collection/ICDO3_O#C00
+5,-1,C01,,#ffffff,C01: Base of Tongue,Base of Tongue,https://bioportal.bioontology.org/ontologies/ICD-O-3/?p=classes&conceptid=https%3A%2F%2Fdata.jrc.ec.europa.eu%2Fcollection%2FICDO3_O%23C01,https://data.jrc.ec.europa.eu/collection/ICDO3_O#C01
+6,-1,C02,,#ffffff,C02: Other and Unspecified Parts of Tongue,Other and Unspecified Parts of Tongue,https://bioportal.bioontology.org/ontologies/ICD-O-3/?p=classes&conceptid=https%3A%2F%2Fdata.jrc.ec.europa.eu%2Fcollection%2FICDO3_O%23C02,https://data.jrc.ec.europa.eu/collection/ICDO3_O#C02
+7,-1,C03,,#ffffff,C03: Gum,Gum,https://bioportal.bioontology.org/ontologies/ICD-O-3/?p=classes&conceptid=https%3A%2F%2Fdata.jrc.ec.europa.eu%2Fcollection%2FICDO3_O%23C03,https://data.jrc.ec.europa.eu/collection/ICDO3_O#C03
+8,-1,C04,,#ffffff,C04: Floor of Mouth,Floor of Mouth,https://bioportal.bioontology.org/ontologies/ICD-O-3/?p=classes&conceptid=https%3A%2F%2Fdata.jrc.ec.europa.eu%2Fcollection%2FICDO3_O%23C04,https://data.jrc.ec.europa.eu/collection/ICDO3_O#C04
+9,-1,C05,,#ffffff,C05: Palate,Palate,https://bioportal.bioontology.org/ontologies/ICD-O-3/?p=classes&conceptid=https%3A%2F%2Fdata.jrc.ec.europa.eu%2Fcollection%2FICDO3_O%23C05,https://data.jrc.ec.europa.eu/collection/ICDO3_O#C05
+10,-1,C06,,#ffffff,C06: Other and Unspecified Parts of Mouth,Other and Unspecified Parts of Mouth,https://bioportal.bioontology.org/ontologies/ICD-O-3/?p=classes&conceptid=https%3A%2F%2Fdata.jrc.ec.europa.eu%2Fcollection%2FICDO3_O%23C06,https://data.jrc.ec.europa.eu/collection/ICDO3_O#C06
+11,-1,C07,,#ffffff,C07: Parotid Gland,Parotid Gland,https://bioportal.bioontology.org/ontologies/ICD-O-3/?p=classes&conceptid=https%3A%2F%2Fdata.jrc.ec.europa.eu%2Fcollection%2FICDO3_O%23C07,https://data.jrc.ec.europa.eu/collection/ICDO3_O#C07
+12,-1,C08,,#ffffff,C08: Other and Unspecified Major Salivary Glands,Other and Unspecified Major Salivary Glands,https://bioportal.bioontology.org/ontologies/ICD-O-3/?p=classes&conceptid=https%3A%2F%2Fdata.jrc.ec.europa.eu%2Fcollection%2FICDO3_O%23C08,https://data.jrc.ec.europa.eu/collection/ICDO3_O#C08
+13,-1,C09,,#ffffff,C09: Tonsil,Tonsil,https://bioportal.bioontology.org/ontologies/ICD-O-3/?p=classes&conceptid=https%3A%2F%2Fdata.jrc.ec.europa.eu%2Fcollection%2FICDO3_O%23C09,https://data.jrc.ec.europa.eu/collection/ICDO3_O#C09
+14,-1,C10,,#ffffff,C10: Oropharynx,Oropharynx,https://bioportal.bioontology.org/ontologies/ICD-O-3/?p=classes&conceptid=https%3A%2F%2Fdata.jrc.ec.europa.eu%2Fcollection%2FICDO3_O%23C10,https://data.jrc.ec.europa.eu/collection/ICDO3_O#C10
+15,-1,C11,,#ffffff,C11: Nasopharynx,Nasopharynx,https://bioportal.bioontology.org/ontologies/ICD-O-3/?p=classes&conceptid=https%3A%2F%2Fdata.jrc.ec.europa.eu%2Fcollection%2FICDO3_O%23C11,https://data.jrc.ec.europa.eu/collection/ICDO3_O#C11
+16,-1,C12,,#ffffff,C12: Pyriform Sinus,Pyriform Sinus,https://bioportal.bioontology.org/ontologies/ICD-O-3/?p=classes&conceptid=https%3A%2F%2Fdata.jrc.ec.europa.eu%2Fcollection%2FICDO3_O%23C12,https://data.jrc.ec.europa.eu/collection/ICDO3_O#C12
+17,-1,C13,,#ffffff,C13: Hypopharynx,Hypopharynx,https://bioportal.bioontology.org/ontologies/ICD-O-3/?p=classes&conceptid=https%3A%2F%2Fdata.jrc.ec.europa.eu%2Fcollection%2FICDO3_O%23C13,https://data.jrc.ec.europa.eu/collection/ICDO3_O#C13
+18,-1,C14,,#ffffff,"C14: Other and Ill-Defined Sites in the Lip, Oral Cavity, and Pharynx","Other and Ill-Defined Sites in the Lip, Oral Cavity, and Pharynx",https://bioportal.bioontology.org/ontologies/ICD-O-3/?p=classes&conceptid=https%3A%2F%2Fdata.jrc.ec.europa.eu%2Fcollection%2FICDO3_O%23C14,https://data.jrc.ec.europa.eu/collection/ICDO3_O#C14
+19,-1,C15,,#ffffff,C15: Oesophagus,Oesophagus,https://bioportal.bioontology.org/ontologies/ICD-O-3/?p=classes&conceptid=https%3A%2F%2Fdata.jrc.ec.europa.eu%2Fcollection%2FICDO3_O%23C15,https://data.jrc.ec.europa.eu/collection/ICDO3_O#C15
+20,-1,C16,,#ffffff,C16: Stomach,Stomach,https://bioportal.bioontology.org/ontologies/ICD-O-3/?p=classes&conceptid=https%3A%2F%2Fdata.jrc.ec.europa.eu%2Fcollection%2FICDO3_O%23C16,https://data.jrc.ec.europa.eu/collection/ICDO3_O#C16
+21,-1,C17,,#ffffff,C17: Small Intestine,Small Intestine,https://bioportal.bioontology.org/ontologies/ICD-O-3/?p=classes&conceptid=https%3A%2F%2Fdata.jrc.ec.europa.eu%2Fcollection%2FICDO3_O%23C17,https://data.jrc.ec.europa.eu/collection/ICDO3_O#C17
+22,-1,C18,,#ffffff,C18: Colon,Colon,https://bioportal.bioontology.org/ontologies/ICD-O-3/?p=classes&conceptid=https%3A%2F%2Fdata.jrc.ec.europa.eu%2Fcollection%2FICDO3_O%23C18,https://data.jrc.ec.europa.eu/collection/ICDO3_O#C18
+23,-1,C19,,#ffffff,C19: Rectosigmoid Junction,Rectosigmoid Junction,https://bioportal.bioontology.org/ontologies/ICD-O-3/?p=classes&conceptid=https%3A%2F%2Fdata.jrc.ec.europa.eu%2Fcollection%2FICDO3_O%23C19,https://data.jrc.ec.europa.eu/collection/ICDO3_O#C19
+24,-1,C20,,#ffffff,C20: Rectum,Rectum,https://bioportal.bioontology.org/ontologies/ICD-O-3/?p=classes&conceptid=https%3A%2F%2Fdata.jrc.ec.europa.eu%2Fcollection%2FICDO3_O%23C20,https://data.jrc.ec.europa.eu/collection/ICDO3_O#C20
+25,-1,C21,,#ffffff,C21: Anus and Anal Canal,Anus and Anal Canal,https://bioportal.bioontology.org/ontologies/ICD-O-3/?p=classes&conceptid=https%3A%2F%2Fdata.jrc.ec.europa.eu%2Fcollection%2FICDO3_O%23C21,https://data.jrc.ec.europa.eu/collection/ICDO3_O#C21
+26,-1,C22,,#ffffff,C22: Liver and Intrahepatic Bile Ducts,Liver and Intrahepatic Bile Ducts,https://bioportal.bioontology.org/ontologies/ICD-O-3/?p=classes&conceptid=https%3A%2F%2Fdata.jrc.ec.europa.eu%2Fcollection%2FICDO3_O%23C22,https://data.jrc.ec.europa.eu/collection/ICDO3_O#C22
+27,-1,C23,,#ffffff,C23: Gallbladder,Gallbladder,https://bioportal.bioontology.org/ontologies/ICD-O-3/?p=classes&conceptid=https%3A%2F%2Fdata.jrc.ec.europa.eu%2Fcollection%2FICDO3_O%23C23,https://data.jrc.ec.europa.eu/collection/ICDO3_O#C23
+28,-1,C24,,#ffffff,C24: Other and Unspecified Parts of Biliary Tract,Other and Unspecified Parts of Biliary Tract,https://bioportal.bioontology.org/ontologies/ICD-O-3/?p=classes&conceptid=https%3A%2F%2Fdata.jrc.ec.europa.eu%2Fcollection%2FICDO3_O%23C24,https://data.jrc.ec.europa.eu/collection/ICDO3_O#C24
+29,-1,C25,,#ffffff,C25: Pancreas,Pancreas,https://bioportal.bioontology.org/ontologies/ICD-O-3/?p=classes&conceptid=https%3A%2F%2Fdata.jrc.ec.europa.eu%2Fcollection%2FICDO3_O%23C25,https://data.jrc.ec.europa.eu/collection/ICDO3_O#C25
+30,-1,C26,,#ffffff,C26: Other and Ill-Defined Digestive Organs,Other and Ill-Defined Digestive Organs,https://bioportal.bioontology.org/ontologies/ICD-O-3/?p=classes&conceptid=https%3A%2F%2Fdata.jrc.ec.europa.eu%2Fcollection%2FICDO3_O%23C26,https://data.jrc.ec.europa.eu/collection/ICDO3_O#C26
+31,-1,C30,,#ffffff,C30: Nasal Cavity and Middle Ear,Nasal Cavity and Middle Ear,https://bioportal.bioontology.org/ontologies/ICD-O-3/?p=classes&conceptid=https%3A%2F%2Fdata.jrc.ec.europa.eu%2Fcollection%2FICDO3_O%23C30,https://data.jrc.ec.europa.eu/collection/ICDO3_O#C30
+32,-1,C31,,#ffffff,C31: Accessory Sinuses,Accessory Sinuses,https://bioportal.bioontology.org/ontologies/ICD-O-3/?p=classes&conceptid=https%3A%2F%2Fdata.jrc.ec.europa.eu%2Fcollection%2FICDO3_O%23C31,https://data.jrc.ec.europa.eu/collection/ICDO3_O#C31
+33,-1,C32,,#ffffff,C32: Larynx,Larynx,https://bioportal.bioontology.org/ontologies/ICD-O-3/?p=classes&conceptid=https%3A%2F%2Fdata.jrc.ec.europa.eu%2Fcollection%2FICDO3_O%23C32,https://data.jrc.ec.europa.eu/collection/ICDO3_O#C32
+34,-1,C33,,#ffffff,C33: Trachea,Trachea,https://bioportal.bioontology.org/ontologies/ICD-O-3/?p=classes&conceptid=https%3A%2F%2Fdata.jrc.ec.europa.eu%2Fcollection%2FICDO3_O%23C33,https://data.jrc.ec.europa.eu/collection/ICDO3_O#C33
+35,-1,C34,,#ffffff,C34: Bronchus and Lung,Bronchus and Lung,https://bioportal.bioontology.org/ontologies/ICD-O-3/?p=classes&conceptid=https%3A%2F%2Fdata.jrc.ec.europa.eu%2Fcollection%2FICDO3_O%23C34,https://data.jrc.ec.europa.eu/collection/ICDO3_O#C34
+36,-1,C37,,#ffffff,C37: Thymus,Thymus,https://bioportal.bioontology.org/ontologies/ICD-O-3/?p=classes&conceptid=https%3A%2F%2Fdata.jrc.ec.europa.eu%2Fcollection%2FICDO3_O%23C37,https://data.jrc.ec.europa.eu/collection/ICDO3_O#C37
+37,-1,C38,,#ffffff,"C38: Heart, Mediastinum, and Pleura","Heart, Mediastinum, and Pleura",https://bioportal.bioontology.org/ontologies/ICD-O-3/?p=classes&conceptid=https%3A%2F%2Fdata.jrc.ec.europa.eu%2Fcollection%2FICDO3_O%23C38,https://data.jrc.ec.europa.eu/collection/ICDO3_O#C38
+38,-1,C39,,#ffffff,C39: Other and Ill-Defined Sites in the Respiratory System and Intrathoracic Organs,Other and Ill-Defined Sites in the Respiratory System and Intrathoracic Organs,https://bioportal.bioontology.org/ontologies/ICD-O-3/?p=classes&conceptid=https%3A%2F%2Fdata.jrc.ec.europa.eu%2Fcollection%2FICDO3_O%23C39,https://data.jrc.ec.europa.eu/collection/ICDO3_O#C39
+39,-1,C40,,#ffffff,C40: Bone and Articular Cartilage of Limbs,Bone and Articular Cartilage of Limbs,https://bioportal.bioontology.org/ontologies/ICD-O-3/?p=classes&conceptid=https%3A%2F%2Fdata.jrc.ec.europa.eu%2Fcollection%2FICDO3_O%23C40,https://data.jrc.ec.europa.eu/collection/ICDO3_O#C40
+40,-1,C41,,#ffffff,C41: Bone and Articular Cartilage of Other and Unspecified Sites,Bone and Articular Cartilage of Other and Unspecified Sites,https://bioportal.bioontology.org/ontologies/ICD-O-3/?p=classes&conceptid=https%3A%2F%2Fdata.jrc.ec.europa.eu%2Fcollection%2FICDO3_O%23C41,https://data.jrc.ec.europa.eu/collection/ICDO3_O#C41
+41,-1,C42,,#ffffff,C42: Hematopoietic and Reticuloendothelial Systems,Hematopoietic and Reticuloendothelial Systems,https://bioportal.bioontology.org/ontologies/ICD-O-3/?p=classes&conceptid=https%3A%2F%2Fdata.jrc.ec.europa.eu%2Fcollection%2FICDO3_O%23C42,https://data.jrc.ec.europa.eu/collection/ICDO3_O#C42
+42,-1,C44,,#ffffff,C44: Skin,Skin,https://bioportal.bioontology.org/ontologies/ICD-O-3/?p=classes&conceptid=https%3A%2F%2Fdata.jrc.ec.europa.eu%2Fcollection%2FICDO3_O%23C44,https://data.jrc.ec.europa.eu/collection/ICDO3_O#C44
+43,-1,C47,,#ffffff,C47: Peripheral Nerves and Autonomic Nervous System,Peripheral Nerves and Autonomic Nervous System,https://bioportal.bioontology.org/ontologies/ICD-O-3/?p=classes&conceptid=https%3A%2F%2Fdata.jrc.ec.europa.eu%2Fcollection%2FICDO3_O%23C47,https://data.jrc.ec.europa.eu/collection/ICDO3_O#C47
+44,-1,C48,,#ffffff,C48: Retroperitoneum and Peritoneum,Retroperitoneum and Peritoneum,https://bioportal.bioontology.org/ontologies/ICD-O-3/?p=classes&conceptid=https%3A%2F%2Fdata.jrc.ec.europa.eu%2Fcollection%2FICDO3_O%23C48,https://data.jrc.ec.europa.eu/collection/ICDO3_O#C48
+45,-1,C49,,#ffffff,"C49: Connective, Subcutaneous and other Soft Tissues ","Connective, Subcutaneous and other Soft Tissues ",https://bioportal.bioontology.org/ontologies/ICD-O-3/?p=classes&conceptid=https%3A%2F%2Fdata.jrc.ec.europa.eu%2Fcollection%2FICDO3_O%23C49,https://data.jrc.ec.europa.eu/collection/ICDO3_O#C49
+46,-1,C50,,#8eaac4,C50: Breast,Breast,https://bioportal.bioontology.org/ontologies/ICD-O-3/?p=classes&conceptid=https%3A%2F%2Fdata.jrc.ec.europa.eu%2Fcollection%2FICDO3_O%23C50,https://data.jrc.ec.europa.eu/collection/ICDO3_O#C50
+47,-1,C51,,#ffffff,C51: Vulva,Vulva,https://bioportal.bioontology.org/ontologies/ICD-O-3/?p=classes&conceptid=https%3A%2F%2Fdata.jrc.ec.europa.eu%2Fcollection%2FICDO3_O%23C51,https://data.jrc.ec.europa.eu/collection/ICDO3_O#C51
+48,-1,C52,,#ffffff,C52: Vagina,Vagina,https://bioportal.bioontology.org/ontologies/ICD-O-3/?p=classes&conceptid=https%3A%2F%2Fdata.jrc.ec.europa.eu%2Fcollection%2FICDO3_O%23C52,https://data.jrc.ec.europa.eu/collection/ICDO3_O#C52
+49,-1,C53,,#ffffff,C53: Cervix Uteri,Cervix Uteri,https://bioportal.bioontology.org/ontologies/ICD-O-3/?p=classes&conceptid=https%3A%2F%2Fdata.jrc.ec.europa.eu%2Fcollection%2FICDO3_O%23C53,https://data.jrc.ec.europa.eu/collection/ICDO3_O#C53
+50,-1,C54,,#ffffff,C54: Corpus Uteri,Corpus Uteri,https://bioportal.bioontology.org/ontologies/ICD-O-3/?p=classes&conceptid=https%3A%2F%2Fdata.jrc.ec.europa.eu%2Fcollection%2FICDO3_O%23C54,https://data.jrc.ec.europa.eu/collection/ICDO3_O#C54
+51,-1,C55,,#ffffff,"C55: Uterus, Part Unspecified","Uterus, Part Unspecified",https://bioportal.bioontology.org/ontologies/ICD-O-3/?p=classes&conceptid=https%3A%2F%2Fdata.jrc.ec.europa.eu%2Fcollection%2FICDO3_O%23C55,https://data.jrc.ec.europa.eu/collection/ICDO3_O#C55
+52,-1,C56,,#ffffff,C56: Ovary,Ovary,https://bioportal.bioontology.org/ontologies/ICD-O-3/?p=classes&conceptid=https%3A%2F%2Fdata.jrc.ec.europa.eu%2Fcollection%2FICDO3_O%23C56,https://data.jrc.ec.europa.eu/collection/ICDO3_O#C56
+53,-1,C57,,#ffffff,C57: Other and Unspecified Female Genital Organs,Other and Unspecified Female Genital Organs,https://bioportal.bioontology.org/ontologies/ICD-O-3/?p=classes&conceptid=https%3A%2F%2Fdata.jrc.ec.europa.eu%2Fcollection%2FICDO3_O%23C57,https://data.jrc.ec.europa.eu/collection/ICDO3_O#C57
+54,-1,C58,,#ffffff,C58: Placenta,Placenta,https://bioportal.bioontology.org/ontologies/ICD-O-3/?p=classes&conceptid=https%3A%2F%2Fdata.jrc.ec.europa.eu%2Fcollection%2FICDO3_O%23C58,https://data.jrc.ec.europa.eu/collection/ICDO3_O#C58
+55,-1,C60,,#ffffff,C60: Penis,Penis,https://bioportal.bioontology.org/ontologies/ICD-O-3/?p=classes&conceptid=https%3A%2F%2Fdata.jrc.ec.europa.eu%2Fcollection%2FICDO3_O%23C60,https://data.jrc.ec.europa.eu/collection/ICDO3_O#C60
+56,-1,C61,,#ffffff,C61: Prostate Gland,Prostate Gland,https://bioportal.bioontology.org/ontologies/ICD-O-3/?p=classes&conceptid=https%3A%2F%2Fdata.jrc.ec.europa.eu%2Fcollection%2FICDO3_O%23C61,https://data.jrc.ec.europa.eu/collection/ICDO3_O#C61
+57,-1,C62,,#ffffff,C62: Testis,Testis,https://bioportal.bioontology.org/ontologies/ICD-O-3/?p=classes&conceptid=https%3A%2F%2Fdata.jrc.ec.europa.eu%2Fcollection%2FICDO3_O%23C62,https://data.jrc.ec.europa.eu/collection/ICDO3_O#C62
+58,-1,C63,,#ffffff,C63: Other and Unspecified Male Genital Organs,Other and Unspecified Male Genital Organs,https://bioportal.bioontology.org/ontologies/ICD-O-3/?p=classes&conceptid=https%3A%2F%2Fdata.jrc.ec.europa.eu%2Fcollection%2FICDO3_O%23C63,https://data.jrc.ec.europa.eu/collection/ICDO3_O#C63
+59,-1,C64,,#ffffff,C64: Kidney,Kidney,https://bioportal.bioontology.org/ontologies/ICD-O-3/?p=classes&conceptid=https%3A%2F%2Fdata.jrc.ec.europa.eu%2Fcollection%2FICDO3_O%23C64,https://data.jrc.ec.europa.eu/collection/ICDO3_O#C64
+60,-1,C65,,#ffffff,C65: Renal Pelvis,Renal Pelvis,https://bioportal.bioontology.org/ontologies/ICD-O-3/?p=classes&conceptid=https%3A%2F%2Fdata.jrc.ec.europa.eu%2Fcollection%2FICDO3_O%23C65,https://data.jrc.ec.europa.eu/collection/ICDO3_O#C65
+61,-1,C66,,#ffffff,C66: Ureter,Ureter,https://bioportal.bioontology.org/ontologies/ICD-O-3/?p=classes&conceptid=https%3A%2F%2Fdata.jrc.ec.europa.eu%2Fcollection%2FICDO3_O%23C66,https://data.jrc.ec.europa.eu/collection/ICDO3_O#C66
+62,-1,C67,,#ffffff,C67: Bladder,Bladder,https://bioportal.bioontology.org/ontologies/ICD-O-3/?p=classes&conceptid=https%3A%2F%2Fdata.jrc.ec.europa.eu%2Fcollection%2FICDO3_O%23C67,https://data.jrc.ec.europa.eu/collection/ICDO3_O#C67
+63,-1,C68,,#ffffff,C68: Other and Unspecified Urinary Organs,Other and Unspecified Urinary Organs,https://bioportal.bioontology.org/ontologies/ICD-O-3/?p=classes&conceptid=https%3A%2F%2Fdata.jrc.ec.europa.eu%2Fcollection%2FICDO3_O%23C68,https://data.jrc.ec.europa.eu/collection/ICDO3_O#C68
+64,-1,C69,,#ffffff,C69: Eye and Adnexa,Eye and Adnexa,https://bioportal.bioontology.org/ontologies/ICD-O-3/?p=classes&conceptid=https%3A%2F%2Fdata.jrc.ec.europa.eu%2Fcollection%2FICDO3_O%23C69,https://data.jrc.ec.europa.eu/collection/ICDO3_O#C69
+65,-1,C70,,#ffffff,C70: Meninges,Meninges,https://bioportal.bioontology.org/ontologies/ICD-O-3/?p=classes&conceptid=https%3A%2F%2Fdata.jrc.ec.europa.eu%2Fcollection%2FICDO3_O%23C70,https://data.jrc.ec.europa.eu/collection/ICDO3_O#C70
+66,-1,C71,,#ffffff,C71: Brain,Brain,https://bioportal.bioontology.org/ontologies/ICD-O-3/?p=classes&conceptid=https%3A%2F%2Fdata.jrc.ec.europa.eu%2Fcollection%2FICDO3_O%23C71,https://data.jrc.ec.europa.eu/collection/ICDO3_O#C71
+67,-1,C72,,#ffffff,"C72: Spinal Cord, Cranial Nerves, and Other Parts of Central Nervous System","Spinal Cord, Cranial Nerves, and Other Parts of Central Nervous System",https://bioportal.bioontology.org/ontologies/ICD-O-3/?p=classes&conceptid=https%3A%2F%2Fdata.jrc.ec.europa.eu%2Fcollection%2FICDO3_O%23C72,https://data.jrc.ec.europa.eu/collection/ICDO3_O#C72
+68,-1,C73,,#ffffff,C73: Thyroid Gland,Thyroid Gland,https://bioportal.bioontology.org/ontologies/ICD-O-3/?p=classes&conceptid=https%3A%2F%2Fdata.jrc.ec.europa.eu%2Fcollection%2FICDO3_O%23C73,https://data.jrc.ec.europa.eu/collection/ICDO3_O#C73
+69,-1,C74,,#ffffff,C74: Adrenal Gland,Adrenal Gland,https://bioportal.bioontology.org/ontologies/ICD-O-3/?p=classes&conceptid=https%3A%2F%2Fdata.jrc.ec.europa.eu%2Fcollection%2FICDO3_O%23C74,https://data.jrc.ec.europa.eu/collection/ICDO3_O#C74
+70,-1,C75,,#ffffff,C75: Other Endocrine Glands and Related Structures,Other Endocrine Glands and Related Structures,https://bioportal.bioontology.org/ontologies/ICD-O-3/?p=classes&conceptid=https%3A%2F%2Fdata.jrc.ec.europa.eu%2Fcollection%2FICDO3_O%23C75,https://data.jrc.ec.europa.eu/collection/ICDO3_O#C75
+71,-1,C76,,#ffffff,C76: Other and Ill-Defined Sites,Other and Ill-Defined Sites,https://bioportal.bioontology.org/ontologies/ICD-O-3/?p=classes&conceptid=https%3A%2F%2Fdata.jrc.ec.europa.eu%2Fcollection%2FICDO3_O%23C76,https://data.jrc.ec.europa.eu/collection/ICDO3_O#C76
+72,-1,C77,,#ffffff,C77: Lymph Nodes,Lymph Nodes,https://bioportal.bioontology.org/ontologies/ICD-O-3/?p=classes&conceptid=https%3A%2F%2Fdata.jrc.ec.europa.eu%2Fcollection%2FICDO3_O%23C77,https://data.jrc.ec.europa.eu/collection/ICDO3_O#C77
+73,-1,C80,,#ffffff,C80: Malignant Neoplasm without Specification of Site,Malignant Neoplasm without Specification of Site,https://bioportal.bioontology.org/ontologies/ICD-O-3/?p=classes&conceptid=https%3A%2F%2Fdata.jrc.ec.europa.eu%2Fcollection%2FICDO3_O%23C80,https://data.jrc.ec.europa.eu/collection/ICDO3_O#C80
