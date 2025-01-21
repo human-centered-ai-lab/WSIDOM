@@ -1,0 +1,80 @@
+{
+  "version": "2.0",
+  "schema_ref": "https://darwin-public.s3.eu-west-1.amazonaws.com/darwin_json/2.0/schema.json",
+  "item": {
+    "name": "TCGA-VM-A8CB-01Z-00-DX8.824FCA58-A9DE-4E3F-8DBC-B38C85A34375.svs",
+    "path": "/brain",
+    "source_info": {
+      "item_id": "018aa90c-a1e0-0000-200a-6dfe2e1cc6a1",
+      "dataset": {
+        "name": "Tissue Types",
+        "slug": "tissue-types",
+        "dataset_management_url": "https://darwin.v7labs.com/datasets/693081/dataset-management"
+      },
+      "team": {
+        "name": "Patho MUG",
+        "slug": "patho-mug"
+      },
+      "workview_url": "https://darwin.v7labs.com/workview?dataset=693081&item=018aa90c-a1e0-0000-200a-6dfe2e1cc6a1"
+    },
+    "slots": [
+      {
+        "type": "image",
+        "slot_name": "0",
+        "width": 125495,
+        "height": 90123,
+        "thumbnail_url": "https://darwin.v7labs.com/api/v2/teams/patho-mug/files/dbccb26e-01d5-4ea9-bc64-f575b4370521/thumbnail",
+        "source_files": [
+          {
+            "file_name": "TCGA-VM-A8CB-01Z-00-DX8.824FCA58-A9DE-4E3F-8DBC-B38C85A34375.svs",
+            "url": "https://darwin.v7labs.com/api/v2/teams/patho-mug/uploads/f5b85445-e2b5-4bc9-9428-be7728b61e31"
+          }
+        ]
+      }
+    ]
+  },
+  "annotations": [
+    {
+      "bounding_box": {
+        "h": 2726.7478,
+        "w": 1650.4,
+        "x": 34854.6207,
+        "y": 26183.4301
+      },
+      "id": "4dd21228-2694-44b2-9672-3789a565b0ba",
+      "name": "CONNECTIVE-TISSUE-BB",
+      "properties": [],
+      "slot_names": [
+        "0"
+      ]
+    },
+    {
+      "bounding_box": {
+        "h": 1133.7531,
+        "w": 1219.8609,
+        "x": 35830.5094,
+        "y": 29642.0945
+      },
+      "id": "15f6085f-9369-4d66-93f4-1573b2254fac",
+      "name": "CONNECTIVE-TISSUE-BB",
+      "properties": [],
+      "slot_names": [
+        "0"
+      ]
+    },
+    {
+      "bounding_box": {
+        "h": 2080.9391,
+        "w": 861.0783,
+        "x": 35184.7007,
+        "y": 23471.0336
+      },
+      "id": "acfe6e0b-bdc8-41d2-8e0a-8e76a7b5b5b8",
+      "name": "CONNECTIVE-TISSUE-BB",
+      "properties": [],
+      "slot_names": [
+        "0"
+      ]
+    }
+  ]
+}

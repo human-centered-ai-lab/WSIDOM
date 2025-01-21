@@ -1,0 +1,156 @@
+{
+  "version": "1.0",
+  "schema": "https://darwin-public.s3.eu-west-1.amazonaws.com/darwin_json/metadata/1.0/schema.json",
+  "classes": [
+    {
+      "name": "EPITHELIUM",
+      "type": "polygon",
+      "description": null,
+      "color": "rgba(0,236,123,1.0)",
+      "sub_types": [
+        "inference"
+      ],
+      "properties": []
+    },
+    {
+      "name": "MUSCLE",
+      "type": "polygon",
+      "description": null,
+      "color": "rgba(255,153,0,1.0)",
+      "sub_types": [
+        "inference"
+      ],
+      "properties": []
+    },
+    {
+      "name": "NERVE",
+      "type": "polygon",
+      "description": null,
+      "color": "rgba(255,245,0,1.0)",
+      "sub_types": [
+        "inference"
+      ],
+      "properties": []
+    },
+    {
+      "name": "CONNECTIVE-TISSUE",
+      "type": "polygon",
+      "description": null,
+      "color": "rgba(0,102,255,1.0)",
+      "sub_types": [
+        "inference"
+      ],
+      "properties": []
+    },
+    {
+      "name": "FAT",
+      "type": "polygon",
+      "description": null,
+      "color": "rgba(0,225,239,1.0)",
+      "sub_types": [
+        "inference"
+      ],
+      "properties": []
+    },
+    {
+      "name": "EPITHELIUM-BB",
+      "type": "bounding_box",
+      "description": null,
+      "color": "rgba(0,236,123,1.0)",
+      "sub_types": [
+        "inference"
+      ],
+      "properties": []
+    },
+    {
+      "name": "MUSCLE-BB",
+      "type": "bounding_box",
+      "description": null,
+      "color": "rgba(255,153,0,1.0)",
+      "sub_types": [
+        "inference"
+      ],
+      "properties": []
+    },
+    {
+      "name": "NERVE-BB",
+      "type": "bounding_box",
+      "description": null,
+      "color": "rgba(255,245,0,1.0)",
+      "sub_types": [
+        "inference"
+      ],
+      "properties": []
+    },
+    {
+      "name": "CONNECTIVE-TISSUE-BB",
+      "type": "bounding_box",
+      "description": null,
+      "color": "rgba(0,102,255,1.0)",
+      "sub_types": [
+        "inference"
+      ],
+      "properties": []
+    },
+    {
+      "name": "FAT-BB",
+      "type": "bounding_box",
+      "description": null,
+      "color": "rgba(0,225,239,1.0)",
+      "sub_types": [
+        "inference"
+      ],
+      "properties": []
+    },
+    {
+      "name": "INFLAMMATION-CHRONIC",
+      "type": "polygon",
+      "description": null,
+      "color": "rgba(97,0,255,1.0)",
+      "sub_types": [
+        "inference"
+      ],
+      "properties": []
+    },
+    {
+      "name": "NECROSIS",
+      "type": "polygon",
+      "description": null,
+      "color": "rgba(255,92,0,1.0)",
+      "sub_types": [
+        "inference"
+      ],
+      "properties": []
+    },
+    {
+      "name": "NEOPLASTIC-BENIGN",
+      "type": "polygon",
+      "description": null,
+      "color": "rgba(82,255,0,1.0)",
+      "sub_types": [
+        "inference"
+      ],
+      "properties": []
+    },
+    {
+      "name": "NEOPLASTIC-MALIGNANT",
+      "type": "polygon",
+      "description": null,
+      "color": "rgba(255,46,0,1.0)",
+      "sub_types": [
+        "inference"
+      ],
+      "properties": []
+    },
+    {
+      "name": "NEOPLASTIC-METASTATIC",
+      "type": "polygon",
+      "description": null,
+      "color": "rgba(0,102,255,1.0)",
+      "sub_types": [
+        "inference"
+      ],
+      "properties": []
+    }
+  ]
+}
